@@ -14,10 +14,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import subprocess
 import sys
 from pathlib import Path
+
+from gh_token import resolve_token
 
 HERE = Path(__file__).resolve().parent
 PY = sys.executable
@@ -49,9 +50,10 @@ def main(argv=None) -> int:
     ap.add_argument("--exclude", help="comma-separated repo names to skip")
     args = ap.parse_args(argv)
 
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    token, token_source = resolve_token()
     if not token:
-        print("error: no token. Set GITHUB_TOKEN or GH_TOKEN before running.", file=sys.stderr)
+        print("error: no token. Set GITHUB_TOKEN / GH_TOKEN, or run "
+              "'python gh_token.py --install'.", file=sys.stderr)
         return 2
 
     sync_counts: dict[str, int] = {}
@@ -126,6 +128,7 @@ def main(argv=None) -> int:
         print(f"  could not summarise repos.json: {e}")
 
     print(f"  synced this run: {len(synced_names)}")
+    print(f"  token source : {token_source}")
     bad = sync_failed or fetch_failed or build_failed
     print("\n" + ("FAILED — see output above" if bad else "OK"))
     return 1 if bad else 0

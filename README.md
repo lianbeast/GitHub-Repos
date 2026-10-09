@@ -31,6 +31,7 @@ directly from disk with no server, no build step and no dependencies.
 | `build_page.py` | Injects `repos.json` into the HTML template → `index.html` |
 | `sync_forks.py` | Bulk-syncs every fork in the account with its upstream |
 | `refresh_forks.py` | One-shot pass: sync forks → refresh drift → rebuild the page |
+| `gh_token.py` | Resolves the GitHub token; `--install` stores it in `~/.github-token` |
 
 ## Refreshing the data
 
@@ -122,7 +123,8 @@ A fork with local commits of its own will still sync (GitHub merges rather than
 fast-forwards), but a conflicting one comes back as `!` and is left untouched.
 
 > The token needs the `repo` scope (classic) or Contents read/write (fine-grained).
-> It is read from the environment and never written to disk.
+> See [Tokens](#tokens) for how it is resolved; it is never written into the
+> repository, a commit, git config or a remote URL.
 
 
 ## Keeping it current
@@ -170,12 +172,42 @@ report as Markdown.
 
 The page stays read-only: it holds no token, so it can report but never sync.
 
-> The token must be in the environment (`GITHUB_TOKEN` or `GH_TOKEN`), or a run
-> aborts without touching anything.
+> A run aborts without touching anything if no token can be found — see
+> [Tokens](#tokens) for where it looks.
 >
 > Under Wine this is the only sane route — Windows Task Scheduler isn't
 > available, and a dotfile in the Wine prefix is not the same file as the one
 > in your Linux home.
+
+## Tokens
+
+Every script resolves the GitHub token the same way, in this order:
+
+1. `--token <value>`
+2. `$GITHUB_TOKEN`
+3. `$GH_TOKEN`
+4. a token file — `$GITHUB_TOKEN_FILE`, else `~/.github-token`,
+   else `~/.config/github-token`
+
+The file holds a bare token, or `GITHUB_TOKEN=...`; blank lines and `#` comments
+are ignored. Store the token you already have in the environment with:
+
+```bash
+python gh_token.py --install    # writes ~/.github-token, mode 600
+python gh_token.py              # report which source wins (token masked)
+```
+
+**Prefer the file for anything unattended.** An exported variable only reaches a
+process if the shell that launched it exported it — fragile for a scheduled job.
+The file is read directly by the script, so it does not matter how the parent
+process was started.
+
+The token needs the `repo` scope (classic) or Contents read/write (fine-grained),
+and is never written into the repository, a commit, git config or a remote URL.
+
+> On Windows/Wine the `600` mode is cosmetic — NTFS ACLs, not the POSIX mode,
+> govern who can read the file. Keep it in a home directory that isn't synced
+> or shared.
 
 ## Favorites storage
 

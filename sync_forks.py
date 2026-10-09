@@ -29,12 +29,13 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 import time
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+
+from gh_token import resolve_token
 
 API = "https://api.github.com"
 UA = "sync-forks/1.0"
@@ -246,9 +247,10 @@ def main(argv=None) -> int:
     ap.add_argument("--json", action="store_true", help="emit a JSON summary instead")
     args = ap.parse_args(argv)
 
-    token = args.token or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    token, token_source = resolve_token(args.token)
     if not token:
-        print("error: no token. Pass --token or set GITHUB_TOKEN / GH_TOKEN.", file=sys.stderr)
+        print("error: no token. Pass --token, set GITHUB_TOKEN / GH_TOKEN, or run "
+              "'python gh_token.py --install'.", file=sys.stderr)
         return 2
 
     client = Client(token)

@@ -7,10 +7,11 @@ is. That pass reuses the compare logic in sync_forks.py and needs a token.
 import argparse
 import datetime
 import json
-import os
 import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+
+from gh_token import resolve_token
 
 USER = "lianbeast"
 OUT = "repos.json"
@@ -121,15 +122,16 @@ def main(argv=None):
     ap.add_argument("--jobs", type=int, default=6, help="parallel drift requests (default: 6)")
     args = ap.parse_args(argv)
 
-    token = args.token or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    token, token_source = resolve_token(args.token)
 
     repos = fetch_all(args.user, token)
     out = [simplify(r) for r in repos]
 
     if args.check_drift:
         if not token:
-            print("error: --check-drift needs a token. Pass --token or set "
-                  "GITHUB_TOKEN / GH_TOKEN.", file=sys.stderr)
+            print("error: --check-drift needs a token. Pass --token, set "
+                  "GITHUB_TOKEN / GH_TOKEN, or run 'python gh_token.py --install'.",
+                  file=sys.stderr)
             return 2
         forks = sum(1 for r in out if r["fork"])
         print(f"Checking drift for {forks} forks (~{forks * 2} API requests)…")
