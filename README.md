@@ -1,8 +1,8 @@
 # GitHub Repo Browser
 
 A single-page, self-contained browser for every public repository on the
-[lianbeast](https://github.com/lianbeast) GitHub account — 143 repos at the time of
-generation (7 original, 136 forks).
+[lianbeast](https://github.com/lianbeast) GitHub account — 147 repos at the time of
+generation (8 original, 139 forks).
 
 `index.html` is a **standalone file**: the repository data is embedded, so it opens
 directly from disk with no server, no build step and no dependencies.
@@ -10,10 +10,14 @@ directly from disk with no server, no build step and no dependencies.
 ## Features
 
 - Instant search across name, description, topics and language (press `/` to focus, `Esc` to clear)
-- Filters: All / Mine / Forks / Has Pages / ★ Favorites, plus a language dropdown and quick-pick chips
-- Sorting: recently updated, recently pushed, name, stars, size
+- Filters: All / Mine / Forks / Has Pages / Stale / ★ Favorites, plus a language dropdown and quick-pick chips
+- Sorting: recently updated, recently pushed, name, stars, size, most behind upstream
 - Each card shows language (with a GitHub-style color dot), stars, forks, last-updated time,
   a direct link, and a **Live** badge when the repo has a homepage
+- **Fork drift** — every fork shows how far behind its upstream it is, with a one-click link
+  to the exact compare view (see [Fork sync status](#fork-sync-status-in-the-browser))
+- **Report panel** — one button summarises fork health, lists everything behind, and turns
+  your tick-box selection into the exact `refresh_forks.py` command to run
 - **Favorites** — save repos with the Save/Saved toggle and filter down to your list
 - Responsive grid, collapses to a single column on mobile
 
@@ -23,9 +27,10 @@ directly from disk with no server, no build step and no dependencies.
 |---|---|
 | `index.html` | The page — generated, self-contained, open it directly |
 | `repos.json` | Raw repo data pulled from the GitHub API |
-| `fetch_repos.py` | Refreshes `repos.json` from the GitHub REST API |
+| `fetch_repos.py` | Refreshes `repos.json` from the GitHub REST API (add `--check-drift` for fork sync status) |
 | `build_page.py` | Injects `repos.json` into the HTML template → `index.html` |
 | `sync_forks.py` | Bulk-syncs every fork in the account with its upstream |
+| `refresh_forks.py` | One-shot pass: sync forks → refresh drift → rebuild the page |
 
 ## Refreshing the data
 
@@ -34,10 +39,46 @@ python fetch_repos.py   # re-fetch all public repos -> repos.json
 python build_page.py    # regenerate index.html from repos.json
 ```
 
+`generated_at` is stamped when the data is *fetched*, and it is what the page
+footer shows — so the footer date always describes the data, not the last build.
+
 No third-party packages are needed — both scripts use only the standard library.
 
 > Note: the GitHub search API only indexes a handful of these repos, so
 > `fetch_repos.py` reads the paginated `/users/<user>/repos` REST endpoint instead.
+
+## Fork sync status in the browser
+
+139 of the 147 repos here are forks, so drift is the question that actually
+matters. Plain `fetch_repos.py` does not answer it — the list endpoint omits the
+`parent` relationship entirely. Run the opt-in pass instead:
+
+```bash
+GITHUB_TOKEN=… python fetch_repos.py --check-drift
+python build_page.py
+```
+
+Every fork card then gains a pill:
+
+| Pill | Meaning |
+|---|---|
+| `Up to date` | fork matches upstream |
+| `42 behind` | upstream has 42 commits the fork does not — links to the exact compare view |
+| `3 behind · 2 ahead` | the fork also carries local commits of its own |
+| `Needs attention` | merge conflict, or a default branch that differs from upstream's |
+| `Check failed` | the compare call errored (rate limit, permissions) |
+
+The pass costs **two API requests per fork** (one for `parent`, one for the
+comparison), so it is deliberately opt-in: plain `fetch_repos.py` stays fast and
+needs no token. It reuses `sync_forks.py` for auth, parallelism and the compare
+call rather than duplicating that logic, so it takes the same `--token` /
+`GITHUB_TOKEN` / `GH_TOKEN` and `--jobs` arguments.
+
+When the pass has never been run, the **Stale** filter, the **Most behind** sort
+and the **Behind upstream** stat stay hidden and a note appears above the grid —
+no dead controls. The footer records when the drift data was last checked.
+
+The browser stays read-only. To actually *sync* a fork, use `sync_forks.py` below.
 
 ## Syncing your forks with upstream
 
@@ -83,6 +124,58 @@ fast-forwards), but a conflicting one comes back as `!` and is left untouched.
 > The token needs the `repo` scope (classic) or Contents read/write (fine-grained).
 > It is read from the environment and never written to disk.
 
+
+## Keeping it current
+
+Drift on this account accumulates fast — the behind count went 7 → 14 in two
+hours on one occasion, because several upstreams (transformers, mastra,
+obsidian-releases) are very active. `refresh_forks.py` wraps the whole cycle:
+
+```bash
+python refresh_forks.py                       # sync behind forks, refresh data, rebuild
+python refresh_forks.py --dry-run             # report what would sync; changes nothing
+python refresh_forks.py --skip-sync           # refresh data + rebuild only (read-only)
+python refresh_forks.py --only mastra,orca    # sync just these, leave the rest
+python refresh_forks.py --exclude watermelon-platform
+```
+
+It runs, in order, `sync_forks.py --apply` → `fetch_repos.py --check-drift` →
+`build_page.py`, then prints a summary: how many forks it synced and which,
+what is still behind, and anything needing manual attention.
+
+### Report first, sync on request
+
+Three scheduled runs a day — **00:00, 06:00 and 12:00** — invoke it with
+`--skip-sync`, so they are strictly read-only. They refresh the drift data,
+rebuild the page, and report what is behind. Nothing is synced, committed or
+pushed on a schedule.
+
+Acting on a report is explicit:
+
+```bash
+python refresh_forks.py --only OfficeCLI,mastra   # just these
+python refresh_forks.py                           # everything that is behind
+```
+
+Three automations rather than one, because the scheduler takes a single hour
+per rule — `BYHOUR=0,6,12` is rejected.
+
+The same report is available without leaving the page. The **Report** button in
+the toolbar summarises fork health, lists everything behind worst-first with a
+compare link on each row, and separates out the forks that need manual
+attention. Tick the ones you want and it builds the matching command —
+`python refresh_forks.py --only …` — ready to copy. With nothing ticked it
+offers the sync-everything command instead. It can also download the whole
+report as Markdown.
+
+The page stays read-only: it holds no token, so it can report but never sync.
+
+> The token must be in the environment (`GITHUB_TOKEN` or `GH_TOKEN`), or a run
+> aborts without touching anything.
+>
+> Under Wine this is the only sane route — Windows Task Scheduler isn't
+> available, and a dotfile in the Wine prefix is not the same file as the one
+> in your Linux home.
 
 ## Favorites storage
 

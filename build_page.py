@@ -86,6 +86,9 @@ html[data-theme="dark"] {
   --warn: #e8ad1a;
   --warn-soft: rgba(227, 160, 8, .12);
   --warn-line: rgba(227, 160, 8, .38);
+  --danger: #f2857c;
+  --danger-soft: rgba(240, 119, 111, .13);
+  --danger-line: rgba(240, 119, 111, .36);
   --on-accent: #0a0d14;
   --shadow-1: 0 1px 2px rgba(0, 0, 0, .50);
   --shadow-2: 0 12px 32px -14px rgba(0, 0, 0, .78);
@@ -116,6 +119,9 @@ html[data-theme="light"] {
   --warn: #7d5800;
   --warn-soft: rgba(154, 103, 0, .10);
   --warn-line: rgba(154, 103, 0, .32);
+  --danger: #a5271f;
+  --danger-soft: rgba(179, 38, 30, .09);
+  --danger-line: rgba(179, 38, 30, .30);
   --on-accent: #ffffff;
   --shadow-1: 0 1px 2px rgba(16, 24, 40, .06);
   --shadow-2: 0 14px 34px -16px rgba(16, 24, 40, .30);
@@ -449,6 +455,7 @@ html[data-theme="light"] .i-sun { display: none; }
 }
 .chip .cnt { font-variant-numeric: tabular-nums; font-size: .78rem; opacity: .72; }
 .chip .dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.chip[hidden] { display: none; }
 
 /* ==========================================================================
    7. Result count + notices
@@ -677,6 +684,28 @@ html[data-theme="light"] .i-sun { display: none; }
 .live:hover { background: var(--surface-3); }
 .live svg { width: 12px; height: 12px; fill: currentColor; }
 
+/* ---------- fork drift pill ---------- */
+.drift {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  font-size: .78rem;
+  font-weight: 650;
+  color: var(--faint);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--dur-fast);
+}
+.drift svg { width: 12px; height: 12px; fill: currentColor; }
+.drift.ok { color: var(--ok); background: var(--ok-soft); border-color: var(--ok-line); }
+.drift.behind { color: var(--warn); background: var(--warn-soft); border-color: var(--warn-line); }
+.drift.alert { color: var(--danger); background: var(--danger-soft); border-color: var(--danger-line); }
+a.drift:hover { background: var(--surface-3); }
+
 /* ==========================================================================
    9. Empty state
    ========================================================================== */
@@ -735,7 +764,163 @@ html[data-theme="light"] .i-sun { display: none; }
 .to-top svg { width: 18px; height: 18px; fill: var(--on-accent); }
 
 /* ==========================================================================
-   12. Responsive
+   12. Toolbar button + report dialog
+   ========================================================================== */
+.tool-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 44px;
+  padding: 0 16px;
+  flex: 0 0 auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  color: var(--muted);
+  font-size: .87rem;
+  font-weight: 550;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background var(--dur-fast), color var(--dur-fast), border-color var(--dur-fast);
+}
+.tool-btn:hover { background: var(--surface-2); color: var(--text); border-color: var(--border-2); }
+.tool-btn svg { width: 15px; height: 15px; fill: currentColor; }
+
+.report-dlg {
+  width: min(780px, calc(100vw - 28px));
+  max-height: min(86vh, 840px);
+  padding: 0;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+}
+.report-dlg[open] { display: flex; flex-direction: column; }
+.report-dlg::backdrop { background: rgba(4, 7, 13, .62); }
+
+.report-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex: 0 0 auto;
+  padding: var(--sp-4) var(--sp-5);
+  border-bottom: 1px solid var(--border);
+}
+.report-head h2 { flex: 1 1 auto; font-size: 1.02rem; }
+.report-close {
+  display: grid; place-items: center;
+  width: 32px; height: 32px; flex: 0 0 auto;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  color: var(--muted);
+  cursor: pointer;
+}
+.report-close:hover { background: var(--surface-2); color: var(--text); }
+.report-close svg { width: 13px; height: 13px; fill: currentColor; }
+
+.report-body { flex: 1 1 auto; overflow-y: auto; padding: var(--sp-5); }
+
+.report-stats { display: flex; flex-wrap: wrap; gap: var(--sp-2); list-style: none; margin: 0; padding: 0; }
+.report-stat {
+  padding: 6px 12px;
+  font-size: .8rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+}
+.report-stat b { color: var(--text); font-variant-numeric: tabular-nums; }
+.report-stat.behind { color: var(--warn); background: var(--warn-soft); border-color: var(--warn-line); }
+.report-stat.behind b { color: inherit; }
+.report-stat.ok { color: var(--ok); background: var(--ok-soft); border-color: var(--ok-line); }
+.report-stat.ok b { color: inherit; }
+.report-stat.alert { color: var(--danger); background: var(--danger-soft); border-color: var(--danger-line); }
+.report-stat.alert b { color: inherit; }
+
+.report-h3 {
+  margin: var(--sp-5) 0 var(--sp-3);
+  font-size: .76rem;
+  font-weight: 650;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.report-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: 8px 11px;
+  margin-bottom: 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+}
+.report-row:hover { border-color: var(--border-2); background: var(--card-hover); }
+.report-row label { display: flex; align-items: center; gap: var(--sp-3); flex: 1 1 auto; min-width: 0; cursor: pointer; }
+.report-row input[type="checkbox"] { width: 15px; height: 15px; flex: 0 0 auto; accent-color: var(--accent); cursor: pointer; }
+.report-row .nm { font-size: .9rem; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.report-row .meta { font-size: .8rem; color: var(--muted); white-space: nowrap; }
+.report-row .up { font-family: var(--font-mono); font-size: .74rem; color: var(--faint); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px; }
+.report-row .cmp { font-size: .78rem; color: var(--accent); text-decoration: none; white-space: nowrap; }
+.report-row .cmp:hover { text-decoration: underline; text-underline-offset: 3px; }
+.report-row.attention { border-color: var(--danger-line); background: var(--danger-soft); }
+.report-row.attention .meta { color: var(--danger); }
+
+.report-note { margin: 0; font-size: .86rem; color: var(--muted); }
+.report-note code {
+  padding: 1px 6px;
+  font-family: var(--font-mono);
+  font-size: .82rem;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: var(--r-xs);
+}
+
+.report-cmd { display: flex; gap: var(--sp-2); }
+.report-cmd input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 40px;
+  padding: 0 12px;
+  font-family: var(--font-mono);
+  font-size: .82rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+}
+
+.report-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  flex: 0 0 auto;
+  padding: var(--sp-4) var(--sp-5);
+  border-top: 1px solid var(--border);
+}
+
+.rbtn {
+  padding: 8px 14px;
+  font-size: .84rem;
+  font-weight: 550;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  transition: background var(--dur-fast), color var(--dur-fast), border-color var(--dur-fast);
+}
+.rbtn:hover { background: var(--surface-2); color: var(--text); border-color: var(--border-2); }
+.rbtn.primary {
+  color: var(--on-accent);
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color: transparent;
+}
+
+/* ==========================================================================
+   13. Responsive
    ========================================================================== */
 @media (max-width: 900px) {
   .grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
@@ -752,6 +937,10 @@ html[data-theme="light"] .i-sun { display: none; }
   .chips-sep { display: none; }
   .chip { padding: 6px 12px; font-size: .8rem; }
   .reset-btn { margin-left: 0; }
+  .tool-btn { padding: 0 12px; }
+  .report-row .up { display: none; }
+  .report-body { padding: var(--sp-4); }
+  .report-head, .report-foot { padding: var(--sp-3) var(--sp-4); }
 }
 
 @media (max-width: 480px) {
@@ -817,7 +1006,12 @@ html[data-theme="light"] .i-sun { display: none; }
         <option value="name">Name (A–Z)</option>
         <option value="stars">Most stars</option>
         <option value="size">Largest</option>
+        <option value="behind" hidden>Most behind upstream</option>
       </select>
+      <button class="tool-btn" id="reportBtn" type="button">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011ZM4 8.75A.75.75 0 0 1 4.75 8h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 4 8.75Zm0 3A.75.75 0 0 1 4.75 11h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 4 11.75Z"/></svg>
+        Report
+      </button>
       <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle colour theme">
         <svg class="i-sun" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm0-1.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5ZM8 0a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V.75A.75.75 0 0 1 8 0Zm0 13a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 13ZM2.34 2.34a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 0 1-1.06 1.06L2.34 3.4a.75.75 0 0 1 0-1.06Zm9.2 9.2a.75.75 0 0 1 1.06 0l1.06 1.06a.75.75 0 1 1-1.06 1.06l-1.06-1.06a.75.75 0 0 1 0-1.06ZM16 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 16 8ZM3 8a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 3 8Zm10.6-5.66a.75.75 0 0 1 0 1.06l-1.06 1.06a.75.75 0 1 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0ZM5.46 10.54a.75.75 0 0 1 0 1.06L4.4 12.66a.75.75 0 0 1-1.06-1.06l1.06-1.06a.75.75 0 0 1 1.06 0Z"/></svg>
         <svg class="i-moon" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.6 1.2a.75.75 0 0 1 .2.83 5.5 5.5 0 0 0 6.77 7.2.75.75 0 0 1 .93 1A7 7 0 1 1 8.77.28a.75.75 0 0 1 .83.92Z"/></svg>
@@ -829,6 +1023,7 @@ html[data-theme="light"] .i-sun { display: none; }
       <button type="button" class="chip" data-type="owned" aria-pressed="false">Mine <span class="cnt"></span></button>
       <button type="button" class="chip" data-type="fork" aria-pressed="false">Forks <span class="cnt"></span></button>
       <button type="button" class="chip" data-type="pages" aria-pressed="false">Has Pages <span class="cnt"></span></button>
+      <button type="button" class="chip" data-type="stale" aria-pressed="false" hidden>Stale <span class="cnt"></span></button>
       <button type="button" class="chip" data-type="fav" aria-pressed="false">★ Favorites <span class="cnt"></span></button>
       <span class="chips-sep" aria-hidden="true"></span>
       <span id="langChips" role="group" aria-label="Quick language filters"></span>
@@ -839,6 +1034,7 @@ html[data-theme="light"] .i-sun { display: none; }
 
   <div class="meta-row">
     <span class="notice" id="storageNotice" hidden><span class="dot" aria-hidden="true"></span><span id="storageNoticeText"></span></span>
+    <span class="notice" id="driftNotice" hidden><span class="dot" aria-hidden="true"></span><span id="driftNoticeText"></span></span>
     <button class="reset-btn" id="reset" type="button" hidden>Reset filters</button>
   </div>
 
@@ -847,7 +1043,7 @@ html[data-theme="light"] .i-sun { display: none; }
   </main>
 
   <footer class="site-foot">
-    <span>Generated <span id="gen"></span> · <span id="total"></span> public repositories</span>
+    <span>Generated <span id="gen"></span> · <span id="total"></span> public repositories<span id="driftDate"></span></span>
     <span><a href="https://github.com/__LOGIN__?tab=repositories" target="_blank" rel="noopener">Open on GitHub ↗</a></span>
   </footer>
 </div>
@@ -855,6 +1051,31 @@ html[data-theme="light"] .i-sun { display: none; }
 <button class="to-top" id="toTop" type="button" aria-label="Back to top">
   <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5 2.5 9l1.1 1.1L8 5.7l4.4 4.4L13.5 9z"/></svg>
 </button>
+
+<dialog class="report-dlg" id="reportDlg" aria-labelledby="reportTitle">
+  <div class="report-head">
+    <h2 id="reportTitle">Fork sync report</h2>
+    <button class="report-close" id="reportClose" type="button" aria-label="Close report">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.75.75 0 1 1 1.06 1.06L9.06 8l3.22 3.22a.75.75 0 1 1-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 0 1-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"/></svg>
+    </button>
+  </div>
+  <div class="report-body">
+    <ul class="report-stats" id="reportStats"></ul>
+    <div id="reportList"></div>
+    <h3 class="report-h3">Sync command</h3>
+    <div class="report-cmd">
+      <label class="sr-only" for="reportCmd">Sync command for the current selection</label>
+      <input id="reportCmd" type="text" readonly>
+      <button class="rbtn primary" id="reportCopy" type="button">Copy</button>
+    </div>
+    <p class="report-note" id="reportCmdHint" style="margin-top:8px"></p>
+  </div>
+  <div class="report-foot">
+    <button class="rbtn" id="reportSelectAll" type="button">Select all</button>
+    <button class="rbtn" id="reportClear" type="button">Clear</button>
+    <button class="rbtn" id="reportDownload" type="button">Download report (.md)</button>
+  </div>
+</dialog>
 
 <script>
 "use strict";
@@ -904,6 +1125,12 @@ function setNotice(text) {
   $("#storageNoticeText").textContent = text || "";
   el.hidden = !text;
 }
+function setDriftNotice(text) {
+  const el = $("#driftNotice");
+  if (!el) return;
+  $("#driftNoticeText").textContent = text || "";
+  el.hidden = !text;
+}
 function syncFavUI() {
   const chip = $('.chip[data-type="fav"]', $("#typeChips"));
   if (chip) $(".cnt", chip).textContent = favs.size;
@@ -934,6 +1161,247 @@ function timeAgo(iso) {
 const fmtDate = (iso) => iso
   ? new Date(iso).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" })
   : "";
+
+/* ---------- fork drift ----------
+ * Populated by `fetch_repos.py --check-drift`. When the pass has not been run
+ * there is no drift data at all, so the Stale filter, the "Most behind" sort
+ * and the "Behind upstream" stat stay hidden rather than sitting there empty. */
+const driftChecked = REPOS.some((r) => !!r.drift_checked_at);
+const behindCount = REPOS.filter((r) => r.drift_status === "behind").length;
+
+const DRIFT_ICON = {
+  ok: '<path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 1 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/>',
+  behind: '<path d="M8 12.5 2.5 7l1.1-1.1L8 10.3l4.4-4.4L13.5 7z"/>',
+  alert: '<path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/>'
+};
+
+function compareUrl(r) {
+  if (!r.upstream || !r.upstream_branch) return "";
+  // encodeURI keeps `/` and `:` readable, which is how GitHub writes compare URLs.
+  const owner = String(r.full_name || "").split("/")[0];
+  const forkRef = owner + ":" + (r.default_branch || "main");
+  return "https://github.com/" + r.upstream + "/compare/"
+    + encodeURI(r.upstream_branch) + "..." + encodeURI(forkRef);
+}
+
+function driftPill(r) {
+  if (!driftChecked || !r.drift_checked_at) return "";
+  const st = r.drift_status;
+  let kind, label;
+  if (st === "ok") { kind = "ok"; label = "Up to date"; }
+  else if (st === "behind") {
+    kind = "behind";
+    label = r.behind + " behind" + (r.ahead ? " · " + r.ahead + " ahead" : "");
+  }
+  else if (st === "warn") { kind = "alert"; label = "Needs attention"; }
+  else if (st === "error") { kind = "alert"; label = "Check failed"; }
+  else return "";                       // "skip" and unchecked forks stay bare
+
+  let href = "";
+  if (st === "behind") {
+    href = compareUrl(r);
+  } else if (r.upstream) {
+    href = "https://github.com/" + r.upstream;
+  }
+
+  const title = esc(r.drift_detail || label);
+  const body = '<svg viewBox="0 0 16 16" aria-hidden="true">' + DRIFT_ICON[kind]
+    + "</svg><span>" + esc(label) + "</span>";
+  return href
+    ? '<a class="drift ' + kind + '" href="' + esc(href) + '" target="_blank" rel="noopener" title="'
+      + title + '">' + body + "</a>"
+    : '<span class="drift ' + kind + '" title="' + title + '">' + body + "</span>";
+}
+
+/* ---------- report panel ----------
+ * The page is static and holds no token, so it cannot sync anything. What it can
+ * do is turn the embedded drift data into a report, let you tick the forks you
+ * care about, and hand you the exact refresh_forks.py command to run. */
+const reportDlg = $("#reportDlg");
+const reportSel = new Set();
+
+const behindForks = () => REPOS.filter((r) => r.drift_status === "behind")
+  .sort((a, b) => (b.behind || 0) - (a.behind || 0) || a.name.localeCompare(b.name));
+const attentionForks = () => REPOS.filter((r) => r.drift_status === "warn" || r.drift_status === "error");
+const driftStamp = () => REPOS.map((r) => r.drift_checked_at).filter(Boolean).sort().pop();
+
+function syncCommand() {
+  const picked = behindForks().filter((r) => reportSel.has(r.name)).map((r) => r.name);
+  return picked.length
+    ? "python refresh_forks.py --only " + picked.join(",")
+    : "python refresh_forks.py";
+}
+
+function syncCmdBox() {
+  const total = behindForks().length;
+  $("#reportCmd").value = syncCommand();
+  $("#reportCmdHint").textContent = reportSel.size
+    ? reportSel.size + " of " + total + " selected"
+    : "nothing selected — this syncs all " + total + " forks that are behind";
+}
+
+function renderReport() {
+  const behind = behindForks();
+  const attention = attentionForks();
+  const ok = REPOS.filter((r) => r.drift_status === "ok").length;
+  const skipped = REPOS.filter((r) => r.drift_status === "skip").length;
+
+  if (!driftChecked) {
+    $("#reportStats").innerHTML = "";
+    $("#reportList").innerHTML = '<p class="report-note">No drift data yet. Run '
+      + "<code>fetch_repos.py --check-drift</code> to record it, then rebuild the page.</p>";
+    $("#reportCmd").value = "";
+    $("#reportCmdHint").textContent = "nothing to sync until drift has been checked";
+    return;
+  }
+
+  $("#reportStats").innerHTML = [
+    ["behind", behind.length, "behind upstream"],
+    ["ok", ok, "up to date"],
+    ["alert", attention.length, "need attention"],
+    ["", skipped, "skipped"]
+  ].filter((s) => s[1]).map((s) =>
+    '<li class="report-stat ' + s[0] + '"><b>' + s[1] + "</b> " + s[2] + "</li>"
+  ).join("") + '<li class="report-stat">data ' + esc(fmtDate(driftStamp())) + "</li>";
+
+  let html = "";
+  if (behind.length) {
+    html += '<h3 class="report-h3">Behind upstream — tick to include</h3>'
+      + behind.map((r) => {
+        const url = compareUrl(r);
+        return '<div class="report-row">'
+          + '<label><input type="checkbox" data-repo="' + esc(r.name) + '"'
+          + (reportSel.has(r.name) ? " checked" : "") + ">"
+          + '<span class="nm">' + esc(r.name) + "</span></label>"
+          + '<span class="meta">' + r.behind + " behind"
+          + (r.ahead ? " · " + r.ahead + " ahead" : "") + "</span>"
+          + '<span class="up">' + esc(r.upstream || "") + "</span>"
+          + (url ? '<a class="cmp" href="' + esc(url) + '" target="_blank" rel="noopener">diff \u2197</a>' : "")
+          + "</div>";
+      }).join("");
+  } else {
+    html += '<p class="report-note">Every checked fork is up to date.</p>';
+  }
+
+  if (attention.length) {
+    html += '<h3 class="report-h3">Needs manual attention — cannot be auto-synced</h3>'
+      + attention.map((r) => '<div class="report-row attention">'
+        + '<span class="nm">' + esc(r.name) + "</span>"
+        + '<span class="meta">' + esc(r.drift_detail || "") + "</span>"
+        + '<span class="up">' + esc(r.upstream || "") + "</span></div>").join("");
+  }
+
+  $("#reportList").innerHTML = html;
+  syncCmdBox();
+}
+
+function reportMarkdown() {
+  const behind = behindForks();
+  const attention = attentionForks();
+  const ok = REPOS.filter((r) => r.drift_status === "ok").length;
+  const skipped = REPOS.filter((r) => r.drift_status === "skip").length;
+  const L = [];
+  L.push("# Fork sync report — " + (DATA.user || ""));
+  L.push("");
+  L.push("Data as of " + fmtDate(driftStamp()) + " · " + REPOS.length + " repositories");
+  L.push("");
+  L.push("- Behind upstream: **" + behind.length + "**");
+  L.push("- Up to date: " + ok);
+  L.push("- Needs manual attention: " + attention.length);
+  L.push("- Skipped: " + skipped);
+  L.push("");
+  if (behind.length) {
+    L.push("## Behind upstream");
+    L.push("");
+    L.push("| Repo | Behind | Ahead | Upstream |");
+    L.push("| --- | ---: | ---: | --- |");
+    behind.forEach((r) => L.push("| `" + r.name + "` | " + r.behind + " | " + (r.ahead || 0)
+      + " | `" + (r.upstream || "") + "` |"));
+    L.push("");
+  }
+  if (attention.length) {
+    L.push("## Needs manual attention (cannot be auto-synced)");
+    L.push("");
+    attention.forEach((r) => L.push("- `" + r.name + "` — " + (r.drift_detail || "")));
+    L.push("");
+  }
+  L.push("## Sync command");
+  L.push("");
+  L.push("```bash");
+  L.push(syncCommand());
+  L.push("```");
+  L.push("");
+  return L.join("\n");
+}
+
+function flash(btn, msg) {
+  if (!btn.dataset.label) btn.dataset.label = btn.textContent;
+  btn.textContent = msg;
+  setTimeout(() => { btn.textContent = btn.dataset.label; }, 1500);
+}
+
+function copyText(text, btn) {
+  const fallback = () => {
+    const inp = $("#reportCmd");
+    const was = inp.value;
+    inp.value = text;
+    inp.removeAttribute("readonly");
+    inp.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    inp.setAttribute("readonly", "");
+    inp.value = was;
+    flash(btn, ok ? "Copied" : "Press Ctrl+C");
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => flash(btn, "Copied"), fallback);
+  } else {
+    fallback();
+  }
+}
+
+function downloadText(filename, text) {
+  const blob = new Blob([text], { type: "text/markdown;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+
+const reportCopyBtn = $("#reportCopy");
+
+$("#reportBtn").addEventListener("click", () => {
+  renderReport();
+  if (typeof reportDlg.showModal === "function") reportDlg.showModal();
+  else reportDlg.setAttribute("open", "");
+});
+$("#reportClose").addEventListener("click", () => reportDlg.close());
+reportDlg.addEventListener("click", (e) => { if (e.target === reportDlg) reportDlg.close(); });
+
+$("#reportList").addEventListener("change", (e) => {
+  const cb = e.target.closest('input[data-repo]');
+  if (!cb) return;
+  if (cb.checked) reportSel.add(cb.dataset.repo);
+  else reportSel.delete(cb.dataset.repo);
+  syncCmdBox();
+});
+
+$("#reportSelectAll").addEventListener("click", () => {
+  behindForks().forEach((r) => reportSel.add(r.name));
+  renderReport();
+});
+$("#reportClear").addEventListener("click", () => {
+  reportSel.clear();
+  renderReport();
+});
+reportCopyBtn.addEventListener("click", () => copyText($("#reportCmd").value, reportCopyBtn));
+$("#reportDownload").addEventListener("click", () => {
+  downloadText("fork-sync-report.md", reportMarkdown());
+});
 
 /* ---------- language filter options ---------- */
 const langCounts = {};
@@ -971,10 +1439,9 @@ langsSorted.slice(0, 6).forEach(([l, c]) => {
   $("#lede").textContent = "Browse, search and filter all " + total
     + " public repositories on this account. Save the ones you want to come back to.";
 
-  const stats = [
-    [total, "Repositories"], [owned, "Original"], [forks, "Forks"],
-    [langsSorted.length, "Languages"], [stars, "Total stars"]
-  ];
+  const stats = [[total, "Repositories"], [owned, "Original"], [forks, "Forks"]];
+  if (driftChecked) stats.push([behindCount, "Behind upstream"]);
+  stats.push([langsSorted.length, "Languages"], [stars, "Total stars"]);
   $("#stats").innerHTML = stats.map(([n, l]) =>
     '<li class="stat"><div class="stat-n">' + n + '</div><div class="stat-l">' + l + "</div></li>"
   ).join("");
@@ -988,6 +1455,7 @@ langsSorted.slice(0, 6).forEach(([l, c]) => {
       : t === "owned" ? owned
       : t === "fork" ? forks
       : t === "fav" ? favs.size
+      : t === "stale" ? behindCount
       : REPOS.filter((r) => r.has_pages).length;
     $(".cnt", ch).textContent = c;
   });
@@ -999,6 +1467,7 @@ function matches(r) {
   if (state.type === "owned" && r.fork) return false;
   if (state.type === "fork" && !r.fork) return false;
   if (state.type === "pages" && !r.has_pages) return false;
+  if (state.type === "stale" && r.drift_status !== "behind") return false;
   if (state.lang && r.language !== state.lang) return false;
   if (state.q) {
     const hay = (r.name + " " + (r.description || "") + " " +
@@ -1012,6 +1481,11 @@ function sortFn(a, b) {
     case "name":   return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
     case "stars":  return b.stars - a.stars || a.name.localeCompare(b.name);
     case "size":   return b.size - a.size;
+    case "behind": {
+      const av = a.drift_status === "behind" ? (a.behind || 0) : -1;
+      const bv = b.drift_status === "behind" ? (b.behind || 0) : -1;
+      return bv - av || a.name.localeCompare(b.name);
+    }
     case "pushed": return new Date(b.pushed_at || 0) - new Date(a.pushed_at || 0);
     default:       return new Date(b.updated_at || 0) - new Date(a.updated_at || 0);
   }
@@ -1070,7 +1544,7 @@ function card(r) {
     + '<p class="desc' + (r.description ? "" : " is-empty") + '">'
     + (r.description ? esc(r.description) : "No description provided.") + "</p>"
     + (topics ? '<div class="topics">' + topics + "</div>" : "")
-    + '<div class="card-foot">' + lang + star + fork + upd + live + "</div>"
+    + '<div class="card-foot">' + driftPill(r) + lang + star + fork + upd + live + "</div>"
     + "</li>";
 }
 
@@ -1199,6 +1673,22 @@ syncLangChips();
 syncFavUI();
 applyTheme(document.documentElement.getAttribute("data-theme") || "dark");
 setNotice("Favorites saved on this device only — cloud sync is not enabled");
+
+if (driftChecked) {
+  const staleChip = $('.chip[data-type="stale"]');
+  if (staleChip) staleChip.hidden = false;
+  const dates = REPOS.map((r) => r.drift_checked_at).filter(Boolean).sort();
+  if (dates.length) {
+    $("#driftDate").textContent = " · fork sync checked " + fmtDate(dates[dates.length - 1]);
+  }
+} else {
+  const staleChip = $('.chip[data-type="stale"]');
+  if (staleChip) staleChip.remove();
+  const behindOpt = $('option[value="behind"]');
+  if (behindOpt) behindOpt.remove();
+  setDriftNotice("Fork sync status has not been checked — run fetch_repos.py --check-drift to populate it.");
+}
+
 render();
 </script>
 </body>
