@@ -25,6 +25,7 @@ directly from disk with no server, no build step and no dependencies.
 | `repos.json` | Raw repo data pulled from the GitHub API |
 | `fetch_repos.py` | Refreshes `repos.json` from the GitHub REST API |
 | `build_page.py` | Injects `repos.json` into the HTML template → `index.html` |
+| `sync_forks.py` | Bulk-syncs every fork in the account with its upstream |
 
 ## Refreshing the data
 
@@ -37,6 +38,51 @@ No third-party packages are needed — both scripts use only the standard librar
 
 > Note: the GitHub search API only indexes a handful of these repos, so
 > `fetch_repos.py` reads the paginated `/users/<user>/repos` REST endpoint instead.
+
+## Syncing your forks with upstream
+
+`sync_forks.py` does in one pass what GitHub's "Sync fork" button does one repo at a
+time. It needs a token — pass `--token`, or set `GITHUB_TOKEN` / `GH_TOKEN`.
+
+```bash
+# 1. What is out of date? Read-only, changes nothing.
+python sync_forks.py
+
+# 2. See exactly what would happen.
+python sync_forks.py --apply --dry-run
+
+# 3. Do it.
+python sync_forks.py --apply
+```
+
+| Flag | Effect |
+|---|---|
+| *(none)* | **Check only** — reports how far behind upstream each fork is |
+| `--apply` | Actually sync, via `POST /repos/{owner}/{repo}/merge-upstream` |
+| `--dry-run` | With `--apply`, report what would change without changing it |
+| `--only a,b` / `--exclude a,b` | Limit to / skip named repos |
+| `--branch <name>` | Sync a specific branch instead of each fork's default |
+| `--limit N` | Stop after N forks |
+| `--jobs N` | Parallel requests (default 6) |
+| `--json` | Machine-readable summary |
+
+**Reading the output**
+
+| Mark | Meaning |
+|---|---|
+| `+` | Synced successfully |
+| `v` | Behind upstream (check mode) / would sync (dry run) |
+| `=` | Already up to date |
+| `?` | Branch mismatch — your default branch differs from upstream's, so it is skipped |
+| `-` | Skipped — archived, or the branch does not exist upstream |
+| `!` | Error — e.g. a merge conflict that needs resolving by hand |
+
+A fork with local commits of its own will still sync (GitHub merges rather than
+fast-forwards), but a conflicting one comes back as `!` and is left untouched.
+
+> The token needs the `repo` scope (classic) or Contents read/write (fine-grained).
+> It is read from the environment and never written to disk.
+
 
 ## Favorites storage
 
