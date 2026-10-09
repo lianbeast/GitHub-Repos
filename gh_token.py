@@ -83,6 +83,13 @@ def masked(token: str | None) -> str:
     return f"{token[:4]}…{token[-4:]} ({len(token)} chars)"
 
 
+def mode_of(path: Path) -> str:
+    try:
+        return oct(path.stat().st_mode & 0o777)[2:].rjust(3, "0")
+    except OSError:
+        return "???"
+
+
 def install() -> int:
     val = None
     for var in ENV_VARS:
@@ -97,14 +104,21 @@ def install() -> int:
     target = default_file()
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(val + "\n", encoding="utf-8")
+
     try:
         os.chmod(target, 0o600)
     except OSError:
         pass
+    mode = mode_of(target)
 
     print(f"Wrote {masked(val)} to {target}")
-    print("  mode set to 600 — note that on Windows/Wine this is cosmetic;")
-    print("  NTFS ACLs, not the POSIX mode, govern who can read the file.")
+    if mode == "600":
+        print("  permissions: 600")
+    else:
+        print(f"  permissions: {mode} — could NOT be restricted to 600.")
+        print("  Windows/Wine does not enforce POSIX modes: chmod is a no-op and")
+        print("  icacls does nothing either. The file is only as private as the")
+        print("  directory it lives in, so keep it out of anything synced or shared.")
     return 0
 
 

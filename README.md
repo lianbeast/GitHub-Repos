@@ -193,7 +193,7 @@ The file holds a bare token, or `GITHUB_TOKEN=...`; blank lines and `#` comments
 are ignored. Store the token you already have in the environment with:
 
 ```bash
-python gh_token.py --install    # writes ~/.github-token, mode 600
+python gh_token.py --install    # writes ~/.github-token (attempts mode 600)
 python gh_token.py              # report which source wins (token masked)
 ```
 
@@ -205,9 +205,11 @@ process was started.
 The token needs the `repo` scope (classic) or Contents read/write (fine-grained),
 and is never written into the repository, a commit, git config or a remote URL.
 
-> On Windows/Wine the `600` mode is cosmetic — NTFS ACLs, not the POSIX mode,
-> govern who can read the file. Keep it in a home directory that isn't synced
-> or shared.
+> **File permissions are not enforceable in this setup.** Windows/Wine ignores
+> POSIX modes — `chmod` is a no-op and `icacls` does nothing either — so
+> `--install` reports the mode it actually ended up with instead of assuming 600.
+> Treat the file as protected only by its location: keep it in a home directory
+> that isn't synced, shared or backed up anywhere public.
 
 ## Favorites storage
 
