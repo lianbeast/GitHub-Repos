@@ -7,7 +7,11 @@ is. That pass reuses the compare logic in sync_forks.py and needs a token.
 import argparse
 import datetime
 import json
+import random
+import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
@@ -15,6 +19,102 @@ from gh_token import resolve_token
 
 USER = "lianbeast"
 OUT = "repos.json"
+MAX_RETRIES = 4
+BASE_DELAY = 1.2
+TIMEOUT = 30
+
+_LINK_RE = re.compile(r'<([^>]+)>;\s*rel="([^"]+)"')
+
+
+def _parse_link_next(headers) -> str | None:
+    link = headers.get("Link") or headers.get("link") or ""
+    if not link:
+        return None
+    for url, rel in _LINK_RE.findall(link):
+        if rel == "next":
+            return url
+    return None
+
+
+def _sleep(attempt: int, retry_after: str | None = None):
+    if retry_after:
+        try:
+            delay = int(retry_after)
+            time.sleep(min(delay, 60))
+            return
+        except ValueError:
+            pass
+        try:
+            delay = float(retry_after)
+            time.sleep(min(delay, 60))
+            return
+        except ValueError:
+            pass
+    delay = (BASE_DELAY ** attempt) + random.uniform(0, 0.6)
+    time.sleep(min(delay, 30))
+
+
+def _request_json(req: urllib.request.Request, max_retries: int = MAX_RETRIES):
+    last_err = None
+    for attempt in range(max_retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                raw = resp.read()
+                headers = resp.headers
+                remaining = headers.get("X-RateLimit-Remaining")
+                reset = headers.get("X-RateLimit-Reset")
+                if remaining == "0" and reset:
+                    try:
+                        wait = int(reset) - int(time.time()) + 1
+                        if 0 < wait < 120:
+                            time.sleep(wait)
+                    except ValueError:
+                        pass
+                data = json.loads(raw) if raw else []
+                return data, headers
+        except urllib.error.HTTPError as e:
+            body = ""
+            try:
+                body = e.read().decode("utf-8", errors="replace")
+            except Exception:
+                pass
+            headers = e.headers or {}
+            status = e.code
+            retry_after = headers.get("Retry-After")
+            remaining = headers.get("X-RateLimit-Remaining")
+            reset = headers.get("X-RateLimit-Reset")
+            is_rate = status in (429, 403) and (
+                "rate limit" in body.lower()
+                or "secondary rate" in body.lower()
+                or remaining == "0"
+                or retry_after
+            )
+            is_retryable = status in (429, 500, 502, 503, 504) or is_rate
+            if is_retryable and attempt < max_retries:
+                if remaining == "0" and reset:
+                    try:
+                        wait = int(reset) - int(time.time()) + 1
+                        if 0 < wait < 120:
+                            time.sleep(wait)
+                            continue
+                    except ValueError:
+                        pass
+                _sleep(attempt, retry_after)
+                last_err = e
+                continue
+            try:
+                payload = json.loads(body) if body else {}
+                msg = payload.get("message", e.reason)
+            except Exception:
+                msg = e.reason
+            raise RuntimeError(f"GitHub API {status} {msg}") from None
+        except urllib.error.URLError as e:
+            if attempt < max_retries:
+                _sleep(attempt)
+                last_err = e
+                continue
+            raise RuntimeError(f"network error: {e.reason}") from None
+    raise RuntimeError(f"request failed after {max_retries} retries: {last_err}")
 
 
 def fetch_all(user, token=None):
@@ -23,28 +123,31 @@ def fetch_all(user, token=None):
     headers = {
         "User-Agent": "repo-browser",
         "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
     }
     if token:
         headers["Authorization"] = "Bearer " + token
-    while True:
-        url = (
-            f"https://api.github.com/users/{user}/repos"
-            f"?per_page=100&page={page}&sort=updated&direction=desc"
-        )
+    url = f"https://api.github.com/users/{user}/repos?per_page=100&page={page}&sort=updated&direction=desc"
+    while url:
         req = urllib.request.Request(url, headers=headers)
-        data = json.load(urllib.request.urlopen(req))
+        data, resp_headers = _request_json(req)
+        if not isinstance(data, list):
+            raise RuntimeError(f"unexpected response for {url}: {data!r}")
         if not data:
             break
         repos += data
-        if len(data) < 100:
-            break
-        page += 1
+        nxt = _parse_link_next(resp_headers)
+        if nxt:
+            url = nxt
+        else:
+            if len(data) < 100:
+                break
+            page += 1
+            url = f"https://api.github.com/users/{user}/repos?per_page=100&page={page}&sort=updated&direction=desc"
     return repos
 
 
 def simplify(r):
-    # The list endpoint omits `parent`, so these stay empty until --check-drift
-    # resolves them one repo at a time.
     parent = r.get("parent") or r.get("source") or {}
     return {
         "name": r.get("name"),
@@ -65,10 +168,9 @@ def simplify(r):
         "created_at": r.get("created_at"),
         "updated_at": r.get("updated_at"),
         "pushed_at": r.get("pushed_at"),
-        # --- fork sync, filled in by --check-drift ---
         "upstream": parent.get("full_name") or "",
         "upstream_branch": parent.get("default_branch") or "",
-        "drift_status": "",          # "" | ok | behind | warn | skip | error
+        "drift_status": "",
         "behind": None,
         "ahead": None,
         "drift_detail": "",
@@ -77,12 +179,7 @@ def simplify(r):
 
 
 def check_drift(repos, token, jobs=6):
-    """Annotate every fork with its upstream drift.
-
-    Reuses sync_forks.py rather than reimplementing auth, pagination and the
-    compare call. Costs two requests per fork (one for `parent`, one for the
-    comparison), so it is deliberately opt-in.
-    """
+    """Annotate every fork with its upstream drift."""
     from sync_forks import Client, check_fork, inspect_fork
 
     client = Client(token)
@@ -146,7 +243,7 @@ def main(argv=None):
     }
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(out)} repos to {args.out}")
+    print(f"Wrote {len(out)} repos to {args.out} ({token_source or 'unauthenticated'})")
     return 0
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Resolve a GitHub token, in order of precedence:
+"""Resolve a GitHub token, in order of precedence.
 
   1. an explicit --token argument
   2. $GITHUB_TOKEN

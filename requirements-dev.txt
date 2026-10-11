@@ -1,0 +1,8 @@
+# Dependencies for optional tooling
+# These are not required to run the CLI scripts. Use `pip install -r requirements-dev.txt`
+ruff==0.6.9
+mypy==1.13.0
+types-requests==2.32.0.20241016
+pyright==1.1.391
+pytest==8.3.4
+pytest-cov==6.0.0

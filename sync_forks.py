@@ -2,33 +2,15 @@
 """
 sync_forks.py — bulk-sync every fork in your GitHub account with its upstream.
 
-GitHub's own "Sync fork" button works one repository at a time. This does all of
-them in one pass, using the REST API:
-
-  * check mode (default) — read-only. Reports how far behind upstream each fork is.
-  * apply mode (--apply) — actually syncs, via POST /repos/{owner}/{repo}/merge-upstream.
-
 Auth: a token with the `repo` scope (classic) or Contents read/write (fine-grained).
 Supply it with --token, or set GITHUB_TOKEN / GH_TOKEN in the environment.
-
-Examples
---------
-    # what is out of date? (safe, makes no changes)
-    python sync_forks.py
-
-    # sync everything that is behind
-    python sync_forks.py --apply
-
-    # just a couple of repos, and show a machine-readable summary
-    python sync_forks.py --only ComfyUI,iptv --json
-
-    # what would happen, without touching anything
-    python sync_forks.py --apply --dry-run
 """
 from __future__ import annotations
 
 import argparse
 import json
+import random
+import re
 import sys
 import time
 import urllib.error
@@ -39,20 +21,20 @@ from gh_token import resolve_token
 
 API = "https://api.github.com"
 UA = "sync-forks/1.0"
+MAX_RETRIES = 4
+BASE_DELAY = 1.2
+TIMEOUT = 30
 
-# Console output on Windows defaults to cp1252; force UTF-8 so the symbols survive.
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
-except Exception:  # pragma: no cover - older interpreters / redirected streams
+except Exception:
     pass
 
 MARK = {"ok": "=", "behind": "v", "synced": "+", "skip": "-", "error": "!", "warn": "?"}
+_LINK_RE = re.compile(r'<([^>]+)>;\s*rel="([^"]+)"')
 
 
-# --------------------------------------------------------------------------- #
-# HTTP
-# --------------------------------------------------------------------------- #
 class ApiError(Exception):
     def __init__(self, status, message, payload=None):
         super().__init__(message)
@@ -62,10 +44,36 @@ class ApiError(Exception):
 
 
 class Client:
-    def __init__(self, token: str, timeout: int = 30):
+    def __init__(self, token: str, timeout: int = TIMEOUT):
         self.token = token
         self.timeout = timeout
         self.remaining = None
+
+    def _parse_link_next(self, headers) -> str | None:
+        link = headers.get("Link") or headers.get("link") or ""
+        if not link:
+            return None
+        for url, rel in _LINK_RE.findall(link):
+            if rel == "next":
+                return url
+        return None
+
+    def _sleep(self, attempt: int, retry_after: str | None = None):
+        if retry_after:
+            try:
+                delay = min(int(retry_after), 60)
+                time.sleep(delay)
+                return
+            except ValueError:
+                pass
+            try:
+                delay = min(float(retry_after), 60)
+                time.sleep(delay)
+                return
+            except ValueError:
+                pass
+        delay = (BASE_DELAY ** attempt) + random.uniform(0, 0.6)
+        time.sleep(min(delay, 30))
 
     def _request(self, method: str, path: str, body=None):
         url = path if path.startswith("http") else API + path
@@ -77,22 +85,49 @@ class Client:
             "User-Agent": UA,
             "Content-Type": "application/json",
         })
-        try:
-            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
-                raw = resp.read()
-                self._note_limits(resp.headers)
-                return json.loads(raw) if raw else {}
-        except urllib.error.HTTPError as e:
-            raw = e.read()
-            self._note_limits(e.headers)
+        for attempt in range(MAX_RETRIES + 1):
             try:
-                payload = json.loads(raw)
-                msg = payload.get("message", e.reason)
-            except Exception:
-                payload, msg = {}, str(e.reason)
-            raise ApiError(e.code, msg, payload) from None
-        except urllib.error.URLError as e:
-            raise ApiError(0, f"network error: {e.reason}") from None
+                with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                    raw = resp.read()
+                    self._note_limits(resp.headers)
+                    return json.loads(raw) if raw else {}, resp.headers
+            except urllib.error.HTTPError as e:
+                raw = e.read()
+                headers = e.headers or {}
+                self._note_limits(headers)
+                try:
+                    payload = json.loads(raw)
+                    msg = payload.get("message", e.reason)
+                except Exception:
+                    payload, msg = {}, str(e.reason)
+                status = e.code
+                retry_after = headers.get("Retry-After")
+                remaining = headers.get("X-RateLimit-Remaining")
+                reset = headers.get("X-RateLimit-Reset")
+                is_rate = status in (429, 403) and (
+                    "rate limit" in str(msg).lower()
+                    or "secondary" in str(msg).lower()
+                    or remaining == "0"
+                    or retry_after
+                )
+                is_retryable = status in (429, 500, 502, 503, 504) or is_rate
+                if is_retryable and attempt < MAX_RETRIES:
+                    if remaining == "0" and reset:
+                        try:
+                            wait = int(reset) - int(time.time()) + 1
+                            if 0 < wait < 120:
+                                time.sleep(wait)
+                                continue
+                        except ValueError:
+                            pass
+                    self._sleep(attempt, retry_after)
+                    continue
+                raise ApiError(status, msg, payload) from None
+            except urllib.error.URLError as e:
+                if attempt < MAX_RETRIES:
+                    self._sleep(attempt)
+                    continue
+                raise ApiError(0, f"network error: {e.reason}") from None
 
     def _note_limits(self, headers):
         try:
@@ -101,37 +136,42 @@ class Client:
             self.remaining = None
 
     def get(self, path):
-        return self._request("GET", path)
+        data, _ = self._request("GET", path)
+        return data
 
     def post(self, path, body=None):
-        return self._request("POST", path, body or {})
+        data, _ = self._request("POST", path, body or {})
+        return data
 
     def paginate(self, path, key=None):
-        """Yield every item from a paginated list endpoint."""
-        page, sep = 1, ("&" if "?" in path else "?")
-        while True:
-            data = self.get(f"{path}{sep}per_page=100&page={page}")
-            if key:
-                data = data.get(key, [])
-            if not data:
-                return
-            yield from data
-            if len(data) < 100:
-                return
-            page += 1
+        url = path if path.startswith("http") else API + path
+        while url:
+            data, headers = self._request("GET", url)
+            items = data.get(key, []) if key else (data if isinstance(data, list) else [])
+            if not items:
+                break
+            yield from items
+            nxt = self._parse_link_next(headers)
+            if nxt:
+                url = nxt
+                continue
+            if isinstance(data, list) and len(data) < 100:
+                break
+            if "page=" in url:
+                try:
+                    import re as _re
+                    url = _re.sub(r"page=\d+", lambda m: f"page={int(m.group(0).split('=')[1])+1}", url)
+                    continue
+                except Exception:
+                    break
+            break
 
-
-# --------------------------------------------------------------------------- #
-# Core logic
-# --------------------------------------------------------------------------- #
 def list_forks(client: Client, login: str) -> list[dict]:
-    """All repos owned by `login`, filtered to forks."""
-    repos = list(client.paginate(f"/users/{login}/repos?type=owner"))
+    repos = list(client.paginate(f"/users/{login}/repos?type=owner&per_page=100"))
     return [r for r in repos if r.get("fork")]
 
 
 def inspect_fork(client: Client, repo: dict, override_branch: str | None) -> dict:
-    """Fetch upstream details for one fork. The list endpoint omits `parent`."""
     full = repo["full_name"]
     try:
         detail = client.get(f"/repos/{full}")
@@ -162,7 +202,6 @@ def inspect_fork(client: Client, repo: dict, override_branch: str | None) -> dic
 
 
 def check_fork(client: Client, item: dict) -> dict:
-    """Read-only: how far behind upstream is this fork?"""
     if item["status"] != "ready":
         return item
     owner = item["upstream"].split("/")[0]
@@ -184,7 +223,6 @@ def check_fork(client: Client, item: dict) -> dict:
 
 
 def sync_fork(client: Client, item: dict) -> dict:
-    """Apply: ask GitHub to fast-forward the fork's branch from upstream."""
     if item["status"] != "ready":
         return item
 
@@ -206,9 +244,6 @@ def sync_fork(client: Client, item: dict) -> dict:
     return {**item, "status": "synced", "detail": f"synced ({merge_type})"}
 
 
-# --------------------------------------------------------------------------- #
-# Presentation
-# --------------------------------------------------------------------------- #
 def render(results: list[dict], mode: str, login: str) -> str:
     width = max((len(r["name"]) for r in results), default=10)
     width = min(width, 34)
@@ -231,8 +266,6 @@ def summarize(results: list[dict]) -> dict:
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(
         description="Sync every forked repository in your account with its upstream.",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=__doc__.split("Examples")[1] if "Examples" in __doc__ else None,
     )
     ap.add_argument("--token", help="GitHub token (else $GITHUB_TOKEN / $GH_TOKEN)")
     ap.add_argument("--apply", action="store_true",
@@ -285,8 +318,6 @@ def main(argv=None) -> int:
         if args.apply and not args.dry_run:
             results = list(pool.map(lambda i: sync_fork(client, i), inspected))
         else:
-            # Read-only: find what is actually behind first, so a dry run
-            # reports real work rather than assuming every fork needs syncing.
             results = list(pool.map(lambda i: check_fork(client, i), inspected))
             if args.apply:
                 results = [
