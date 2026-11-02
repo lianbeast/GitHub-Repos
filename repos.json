@@ -1,27 +1,27 @@
 {
   "user": "lianbeast",
-  "generated_at": "2026-11-01T17:17:05.304370+00:00",
+  "generated_at": "2026-11-02T04:45:12.369557+00:00",
   "count": 176,
   "repos": [
     {
-      "name": "GitHub-Repos",
-      "full_name": "lianbeast/GitHub-Repos",
-      "description": "Self-contained, responsive browser for all of lianbeast's public GitHub repositories - search, filter by language/type, sort, and save favorites.",
-      "language": "HTML",
-      "url": "https://github.com/lianbeast/GitHub-Repos",
-      "homepage": "",
+      "name": "lianbeast",
+      "full_name": "lianbeast/lianbeast",
+      "description": "Lian Beast - builder, dreamer, explorer. Interactive web experiences, geospatial tools, and open source. ",
+      "language": null,
+      "url": "https://github.com/lianbeast/lianbeast",
+      "homepage": "https://lianbeast.github.io/Personal-Site/",
       "topics": [],
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 1183,
+      "size": 109,
       "fork": false,
       "archived": false,
-      "has_pages": true,
+      "has_pages": false,
       "default_branch": "main",
-      "created_at": "2026-10-09T06:21:44Z",
-      "updated_at": "2026-11-01T12:55:10Z",
-      "pushed_at": "2026-11-01T12:55:06Z",
+      "created_at": "2026-10-20T17:52:56Z",
+      "updated_at": "2026-11-02T03:22:58Z",
+      "pushed_at": "2026-11-02T03:22:54Z",
       "upstream": "",
       "upstream_branch": "",
       "drift_status": "",
@@ -29,6 +29,60 @@
       "ahead": null,
       "drift_detail": "",
       "drift_checked_at": null
+    },
+    {
+      "name": "transformers",
+      "full_name": "lianbeast/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/transformers",
+      "homepage": "https://huggingface.co/transformers",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 436533,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-10T05:32:47Z",
+      "updated_at": "2026-11-02T01:07:04Z",
+      "pushed_at": "2026-11-02T01:06:43Z",
+      "upstream": "huggingface/transformers",
+      "upstream_branch": "main",
+      "drift_status": "behind",
+      "behind": 4,
+      "ahead": 0,
+      "drift_detail": "behind by 4",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "obsidian-releases",
+      "full_name": "lianbeast/obsidian-releases",
+      "description": "Community plugins list, theme list, and releases of Obsidian.",
+      "language": null,
+      "url": "https://github.com/lianbeast/obsidian-releases",
+      "homepage": "https://obsidian.md",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 343238,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "master",
+      "created_at": "2026-08-02T03:12:20Z",
+      "updated_at": "2026-11-02T01:06:51Z",
+      "pushed_at": "2026-11-02T01:06:15Z",
+      "upstream": "obsidianmd/obsidian-releases",
+      "upstream_branch": "master",
+      "drift_status": "behind",
+      "behind": 3,
+      "ahead": 0,
+      "drift_detail": "behind by 3",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "orca",
@@ -41,21 +95,723 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 796448,
+      "size": 809769,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-01T14:07:06Z",
-      "updated_at": "2026-11-01T10:54:12Z",
-      "pushed_at": "2026-11-01T10:52:05Z",
+      "updated_at": "2026-11-02T01:06:50Z",
+      "pushed_at": "2026-11-02T01:06:32Z",
       "upstream": "stablyai/orca",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 37,
+      "behind": 50,
       "ahead": 0,
-      "drift_detail": "behind by 37",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 50",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "stemkit",
+      "full_name": "lianbeast/stemkit",
+      "description": "Split any YouTube song into stems",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/stemkit",
+      "homepage": "",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 12986,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-09-23T11:15:54Z",
+      "updated_at": "2026-11-02T01:06:44Z",
+      "pushed_at": "2026-11-02T01:06:38Z",
+      "upstream": "danielravina/stemkit",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "iptv",
+      "full_name": "lianbeast/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/iptv",
+      "homepage": "https://iptv-org.github.io",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 113845,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "master",
+      "created_at": "2026-09-01T08:20:14Z",
+      "updated_at": "2026-11-02T01:06:38Z",
+      "pushed_at": "2026-11-02T01:05:38Z",
+      "upstream": "iptv-org/iptv",
+      "upstream_branch": "master",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "mastra",
+      "full_name": "lianbeast/mastra",
+      "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/mastra",
+      "homepage": "https://mastra.ai",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 1380740,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-09-07T17:12:06Z",
+      "updated_at": "2026-11-02T01:06:23Z",
+      "pushed_at": "2026-11-02T01:06:00Z",
+      "upstream": "mastra-ai/mastra",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "freellmapi",
+      "full_name": "lianbeast/freellmapi",
+      "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/freellmapi",
+      "homepage": "https://freellmapi.co",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 23629,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-07-29T14:32:56Z",
+      "updated_at": "2026-11-02T01:04:51Z",
+      "pushed_at": "2026-11-02T01:04:37Z",
+      "upstream": "tashfeenahmed/freellmapi",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "claude-hud",
+      "full_name": "lianbeast/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "url": "https://github.com/lianbeast/claude-hud",
+      "homepage": "",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 3586,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-26T20:39:42Z",
+      "updated_at": "2026-11-02T01:04:40Z",
+      "pushed_at": "2026-11-02T01:04:30Z",
+      "upstream": "jarrodwatts/claude-hud",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "buzz",
+      "full_name": "lianbeast/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "url": "https://github.com/lianbeast/buzz",
+      "homepage": "",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 125467,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-07T20:27:35Z",
+      "updated_at": "2026-11-02T01:04:37Z",
+      "pushed_at": "2026-11-02T01:04:31Z",
+      "upstream": "block/buzz",
+      "upstream_branch": "main",
+      "drift_status": "behind",
+      "behind": 3,
+      "ahead": 0,
+      "drift_detail": "behind by 3",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "dioxus",
+      "full_name": "lianbeast/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "url": "https://github.com/lianbeast/dioxus",
+      "homepage": "https://dioxuslabs.com",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 52933,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-13T02:06:25Z",
+      "updated_at": "2026-11-02T01:04:36Z",
+      "pushed_at": "2026-11-02T01:04:31Z",
+      "upstream": "DioxusLabs/dioxus",
+      "upstream_branch": "main",
+      "drift_status": "behind",
+      "behind": 1,
+      "ahead": 0,
+      "drift_detail": "behind by 1",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "AstrBot",
+      "full_name": "lianbeast/AstrBot",
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/AstrBot",
+      "homepage": "https://astrbot.app",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 67226,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "master",
+      "created_at": "2026-08-08T09:44:31Z",
+      "updated_at": "2026-11-02T01:04:33Z",
+      "pushed_at": "2026-11-02T01:04:29Z",
+      "upstream": "AstrBotDevs/AstrBot",
+      "upstream_branch": "master",
+      "drift_status": "behind",
+      "behind": 1,
+      "ahead": 0,
+      "drift_detail": "behind by 1",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "worldmonitor",
+      "full_name": "lianbeast/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/worldmonitor",
+      "homepage": "https://worldmonitor.app",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 294691,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-01T14:16:46Z",
+      "updated_at": "2026-11-01T21:27:53Z",
+      "pushed_at": "2026-11-01T21:26:22Z",
+      "upstream": "koala73/worldmonitor",
+      "upstream_branch": "main",
+      "drift_status": "behind",
+      "behind": 1,
+      "ahead": 0,
+      "drift_detail": "behind by 1",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "vibeyard",
+      "full_name": "lianbeast/vibeyard",
+      "description": "The IDE built for AI coding agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/vibeyard",
+      "homepage": "",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 48272,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-09-22T13:11:15Z",
+      "updated_at": "2026-11-01T21:26:22Z",
+      "pushed_at": "2026-11-01T21:26:15Z",
+      "upstream": "elirantutia/vibeyard",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "public-apis",
+      "full_name": "lianbeast/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/public-apis",
+      "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 14441,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "master",
+      "created_at": "2026-08-14T15:14:28Z",
+      "updated_at": "2026-11-01T21:26:08Z",
+      "pushed_at": "2026-11-01T21:24:54Z",
+      "upstream": "public-apis/public-apis",
+      "upstream_branch": "master",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "free-for-dev",
+      "full_name": "lianbeast/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "url": "https://github.com/lianbeast/free-for-dev",
+      "homepage": "https://free-for.dev/",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 11607,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "master",
+      "created_at": "2026-07-29T03:31:58Z",
+      "updated_at": "2026-11-01T21:25:46Z",
+      "pushed_at": "2026-11-01T21:24:30Z",
+      "upstream": "ripienaar/free-for-dev",
+      "upstream_branch": "master",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "OpenBB",
+      "full_name": "lianbeast/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/OpenBB",
+      "homepage": "https://openbb.co",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 1481542,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "develop",
+      "created_at": "2026-07-25T18:14:26Z",
+      "updated_at": "2026-11-01T21:25:09Z",
+      "pushed_at": "2026-11-01T21:24:47Z",
+      "upstream": "openbq-org/OpenBB",
+      "upstream_branch": "develop",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "semantica",
+      "full_name": "lianbeast/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/semantica",
+      "homepage": "https://getsemantica.ai",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 50752,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-10T13:33:53Z",
+      "updated_at": "2026-11-01T21:25:08Z",
+      "pushed_at": "2026-11-01T21:24:58Z",
+      "upstream": "semantica-agi/semantica",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "openship",
+      "full_name": "lianbeast/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/openship",
+      "homepage": "https://openship.io",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 156925,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-01T14:02:35Z",
+      "updated_at": "2026-11-01T21:25:07Z",
+      "pushed_at": "2026-11-01T21:24:49Z",
+      "upstream": "oblien/openship",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "OpenViking",
+      "full_name": "lianbeast/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/OpenViking",
+      "homepage": "https://openviking.ai/",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 216647,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-09-05T13:19:02Z",
+      "updated_at": "2026-11-01T21:25:01Z",
+      "pushed_at": "2026-11-01T21:24:50Z",
+      "upstream": "volcengine/OpenViking",
+      "upstream_branch": "main",
+      "drift_status": "behind",
+      "behind": 14,
+      "ahead": 0,
+      "drift_detail": "behind by 14",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "NeMo-Agent-Toolkit",
+      "full_name": "lianbeast/NeMo-Agent-Toolkit",
+      "description": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/NeMo-Agent-Toolkit",
+      "homepage": "https://docs.nvidia.com/nemo/agent-toolkit/latest/",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 100230,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "develop",
+      "created_at": "2026-07-27T02:40:32Z",
+      "updated_at": "2026-11-01T21:24:50Z",
+      "pushed_at": "2026-11-01T21:24:41Z",
+      "upstream": "NVIDIA/NeMo-Agent-Toolkit",
+      "upstream_branch": "develop",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "mobile-mcp",
+      "full_name": "lianbeast/mobile-mcp",
+      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/mobile-mcp",
+      "homepage": "https://mobilenext.ai",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 4293,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-09-27T04:14:04Z",
+      "updated_at": "2026-11-01T21:24:45Z",
+      "pushed_at": "2026-11-01T21:24:38Z",
+      "upstream": "mobile-next/mobile-mcp",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "kde-audio-visualizer",
+      "full_name": "lianbeast/kde-audio-visualizer",
+      "description": "Plasma 6 Desktop Widget to visualize played audio",
+      "language": "QML",
+      "url": "https://github.com/lianbeast/kde-audio-visualizer",
+      "homepage": "https://www.opendesktop.org/p/2359422/",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 15676,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-04T00:11:34Z",
+      "updated_at": "2026-11-01T21:24:40Z",
+      "pushed_at": "2026-11-01T21:24:36Z",
+      "upstream": "Muddyblack/audio-wave-visualizer",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "GeoLibre",
+      "full_name": "lianbeast/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/GeoLibre",
+      "homepage": "https://geolibre.app",
+      "topics": [],
+      "stars": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "size": 68962,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-08-09T15:07:33Z",
+      "updated_at": "2026-11-01T21:24:37Z",
+      "pushed_at": "2026-11-01T21:24:32Z",
+      "upstream": "opengeos/GeoLibre",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "ComfyUI",
+      "full_name": "lianbeast/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/ComfyUI",
+      "homepage": "https://www.comfy.org/",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 93696,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "master",
+      "created_at": "2026-07-27T22:54:08Z",
+      "updated_at": "2026-11-01T21:24:32Z",
+      "pushed_at": "2026-11-01T21:24:27Z",
+      "upstream": "Comfy-Org/ComfyUI",
+      "upstream_branch": "master",
+      "drift_status": "behind",
+      "behind": 1,
+      "ahead": 0,
+      "drift_detail": "behind by 1",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "awesome-free-llm-apis",
+      "full_name": "lianbeast/awesome-free-llm-apis",
+      "description": "List of Permanent Free LLM API  (API Keys)",
+      "language": "JavaScript",
+      "url": "https://github.com/lianbeast/awesome-free-llm-apis",
+      "homepage": "",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 499,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-07-18T17:13:08Z",
+      "updated_at": "2026-11-01T21:24:28Z",
+      "pushed_at": "2026-11-01T21:24:19Z",
+      "upstream": "mnfst/awesome-free-llm-apis",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "impeccable",
+      "full_name": "lianbeast/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "url": "https://github.com/lianbeast/impeccable",
+      "homepage": "https://impeccable.style",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 597659,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-09-25T04:50:50Z",
+      "updated_at": "2026-11-01T17:18:43Z",
+      "pushed_at": "2026-11-01T17:17:57Z",
+      "upstream": "pbakaus/impeccable",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "magic-resume",
+      "full_name": "lianbeast/magic-resume",
+      "description": "free online AI resume editor，the only official website is  https://magicv.art",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/magic-resume",
+      "homepage": "https://magicv.art",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 344545,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-07-23T14:53:44Z",
+      "updated_at": "2026-11-01T17:18:20Z",
+      "pushed_at": "2026-11-01T17:18:08Z",
+      "upstream": "JOYCEQL/magic-resume",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "graphify",
+      "full_name": "lianbeast/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "url": "https://github.com/lianbeast/graphify",
+      "homepage": "https://www.graphify.com",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 32023,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "v8",
+      "created_at": "2026-08-09T15:04:50Z",
+      "updated_at": "2026-11-01T17:17:57Z",
+      "pushed_at": "2026-11-01T17:17:52Z",
+      "upstream": "Graphify-Labs/graphify",
+      "upstream_branch": "v8",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
+    },
+    {
+      "name": "GitHub-Repos",
+      "full_name": "lianbeast/GitHub-Repos",
+      "description": "Self-contained, responsive browser for all of lianbeast's public GitHub repositories - search, filter by language/type, sort, and save favorites.",
+      "language": "HTML",
+      "url": "https://github.com/lianbeast/GitHub-Repos",
+      "homepage": "",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 1191,
+      "fork": false,
+      "archived": false,
+      "has_pages": true,
+      "default_branch": "main",
+      "created_at": "2026-10-09T06:21:44Z",
+      "updated_at": "2026-11-01T17:17:10Z",
+      "pushed_at": "2026-11-01T17:17:06Z",
+      "upstream": "",
+      "upstream_branch": "",
+      "drift_status": "",
+      "behind": null,
+      "ahead": null,
+      "drift_detail": "",
+      "drift_checked_at": null
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -82,169 +838,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "worldmonitor",
-      "full_name": "lianbeast/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/worldmonitor",
-      "homepage": "https://worldmonitor.app",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 288116,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-01T14:16:46Z",
-      "updated_at": "2026-11-01T10:52:37Z",
-      "pushed_at": "2026-11-01T10:52:20Z",
-      "upstream": "koala73/worldmonitor",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 29,
-      "ahead": 0,
-      "drift_detail": "behind by 29",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "OpenViking",
-      "full_name": "lianbeast/OpenViking",
-      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/OpenViking",
-      "homepage": "https://openviking.ai/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 216591,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-09-05T13:19:02Z",
-      "updated_at": "2026-11-01T10:52:22Z",
-      "pushed_at": "2026-11-01T10:52:05Z",
-      "upstream": "volcengine/OpenViking",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1,
-      "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "obsidian-releases",
-      "full_name": "lianbeast/obsidian-releases",
-      "description": "Community plugins list, theme list, and releases of Obsidian.",
-      "language": null,
-      "url": "https://github.com/lianbeast/obsidian-releases",
-      "homepage": "https://obsidian.md",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 342113,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "master",
-      "created_at": "2026-08-02T03:12:20Z",
-      "updated_at": "2026-11-01T10:52:20Z",
-      "pushed_at": "2026-11-01T10:51:56Z",
-      "upstream": "obsidianmd/obsidian-releases",
-      "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 4,
-      "ahead": 0,
-      "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "openship",
-      "full_name": "lianbeast/openship",
-      "description": "Self-hosted deployment platform",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/openship",
-      "homepage": "https://openship.io",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 153503,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-01T14:02:35Z",
-      "updated_at": "2026-11-01T10:52:19Z",
-      "pushed_at": "2026-11-01T10:52:04Z",
-      "upstream": "oblien/openship",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 10,
-      "ahead": 0,
-      "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "semantica",
-      "full_name": "lianbeast/semantica",
-      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/semantica",
-      "homepage": "https://getsemantica.ai",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 51118,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-10T13:33:53Z",
-      "updated_at": "2026-11-01T10:52:13Z",
-      "pushed_at": "2026-11-01T10:52:08Z",
-      "upstream": "semantica-agi/semantica",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "mastra",
-      "full_name": "lianbeast/mastra",
-      "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/mastra",
-      "homepage": "https://mastra.ai",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 1380454,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-09-07T17:12:06Z",
-      "updated_at": "2026-11-01T10:52:13Z",
-      "pushed_at": "2026-11-01T10:51:50Z",
-      "upstream": "mastra-ai/mastra",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 15,
-      "ahead": 0,
-      "drift_detail": "behind by 15",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "openscreen-NEW",
@@ -271,7 +865,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Open-Generative-AI",
@@ -298,88 +892,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "ComfyUI",
-      "full_name": "lianbeast/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/ComfyUI",
-      "homepage": "https://www.comfy.org/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 93709,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "master",
-      "created_at": "2026-07-27T22:54:08Z",
-      "updated_at": "2026-11-01T10:52:03Z",
-      "pushed_at": "2026-11-01T10:50:19Z",
-      "upstream": "Comfy-Org/ComfyUI",
-      "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 1,
-      "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "magic-resume",
-      "full_name": "lianbeast/magic-resume",
-      "description": "free online AI resume editor，the only official website is  https://magicv.art",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/magic-resume",
-      "homepage": "https://magicv.art",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 343707,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-07-23T14:53:44Z",
-      "updated_at": "2026-11-01T10:52:00Z",
-      "pushed_at": "2026-11-01T10:51:49Z",
-      "upstream": "JOYCEQL/magic-resume",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 11,
-      "ahead": 0,
-      "drift_detail": "behind by 11",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "impeccable",
-      "full_name": "lianbeast/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "Rust",
-      "url": "https://github.com/lianbeast/impeccable",
-      "homepage": "https://impeccable.style",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 596344,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-09-25T04:50:50Z",
-      "updated_at": "2026-11-01T10:51:44Z",
-      "pushed_at": "2026-11-01T10:51:40Z",
-      "upstream": "pbakaus/impeccable",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 3,
-      "ahead": 0,
-      "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "gods-eye-view",
@@ -402,11 +915,11 @@
       "pushed_at": "2026-11-01T10:51:34Z",
       "upstream": "bilawalsidhu/gods-eye-view",
       "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
+      "drift_status": "behind",
+      "behind": 141,
       "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 141",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Agent-Reach",
@@ -433,61 +946,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "claude-hud",
-      "full_name": "lianbeast/claude-hud",
-      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
-      "language": "JavaScript",
-      "url": "https://github.com/lianbeast/claude-hud",
-      "homepage": "",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 3702,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-26T20:39:42Z",
-      "updated_at": "2026-11-01T10:50:30Z",
-      "pushed_at": "2026-11-01T10:50:19Z",
-      "upstream": "jarrodwatts/claude-hud",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1,
-      "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "AstrBot",
-      "full_name": "lianbeast/AstrBot",
-      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/AstrBot",
-      "homepage": "https://astrbot.app",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 67136,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "master",
-      "created_at": "2026-08-08T09:44:31Z",
-      "updated_at": "2026-11-01T10:50:16Z",
-      "pushed_at": "2026-11-01T10:50:12Z",
-      "upstream": "AstrBotDevs/AstrBot",
-      "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 6,
-      "ahead": 0,
-      "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "YuE2-Studio",
@@ -514,34 +973,7 @@
       "behind": 1,
       "ahead": 0,
       "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "lianbeast",
-      "full_name": "lianbeast/lianbeast",
-      "description": "Lian Beast - builder, dreamer, explorer. Interactive web experiences, geospatial tools, and open source. ",
-      "language": null,
-      "url": "https://github.com/lianbeast/lianbeast",
-      "homepage": "https://lianbeast.github.io/Personal-Site/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 107,
-      "fork": false,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-10-20T17:52:56Z",
-      "updated_at": "2026-11-01T03:13:30Z",
-      "pushed_at": "2026-11-01T03:13:26Z",
-      "upstream": "",
-      "upstream_branch": "",
-      "drift_status": "",
-      "behind": null,
-      "ahead": null,
-      "drift_detail": "",
-      "drift_checked_at": null
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "whisper.cpp",
@@ -568,34 +1000,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "public-apis",
-      "full_name": "lianbeast/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/public-apis",
-      "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 13615,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "master",
-      "created_at": "2026-08-14T15:14:28Z",
-      "updated_at": "2026-11-01T03:01:10Z",
-      "pushed_at": "2026-11-01T02:55:04Z",
-      "upstream": "public-apis/public-apis",
-      "upstream_branch": "master",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "SurfSense",
@@ -622,7 +1027,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "vphone-cli",
@@ -645,38 +1050,11 @@
       "pushed_at": "2026-11-01T02:59:33Z",
       "upstream": "Lakr233/vphone-cli",
       "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
+      "drift_status": "behind",
+      "behind": 12,
       "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "transformers",
-      "full_name": "lianbeast/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/transformers",
-      "homepage": "https://huggingface.co/transformers",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 436563,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-10T05:32:47Z",
-      "updated_at": "2026-11-01T03:00:26Z",
-      "pushed_at": "2026-11-01T02:58:12Z",
-      "upstream": "huggingface/transformers",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 12",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "video-shotcraft",
@@ -703,7 +1081,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "taste-skill",
@@ -730,7 +1108,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "uniface",
@@ -757,7 +1135,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "tweakcc",
@@ -784,7 +1162,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Switchyard",
@@ -811,7 +1189,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "superfile",
@@ -838,34 +1216,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "stemkit",
-      "full_name": "lianbeast/stemkit",
-      "description": "Split any YouTube song into stems",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/stemkit",
-      "homepage": "",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 12893,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-09-23T11:15:54Z",
-      "updated_at": "2026-11-01T02:58:03Z",
-      "pushed_at": "2026-11-01T02:57:57Z",
-      "upstream": "danielravina/stemkit",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "skills",
@@ -892,7 +1243,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "prime-agent",
@@ -919,7 +1270,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "brag",
@@ -946,7 +1297,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Paymenter",
@@ -973,7 +1324,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "open-design",
@@ -996,11 +1347,11 @@
       "pushed_at": "2026-11-01T02:52:18Z",
       "upstream": "nexu-io/open-design",
       "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
+      "drift_status": "behind",
+      "behind": 3,
       "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 3",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "open-seo",
@@ -1027,34 +1378,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "OpenBB",
-      "full_name": "lianbeast/OpenBB",
-      "description": "Open Data Platform for analysts, quants and AI agents.",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/OpenBB",
-      "homepage": "https://openbb.co",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 1480802,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "develop",
-      "created_at": "2026-07-25T18:14:26Z",
-      "updated_at": "2026-11-01T02:53:09Z",
-      "pushed_at": "2026-11-01T02:52:37Z",
-      "upstream": "openbq-org/OpenBB",
-      "upstream_branch": "develop",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "openvid",
@@ -1077,11 +1401,11 @@
       "pushed_at": "2026-11-01T02:52:55Z",
       "upstream": "CristianOlivera1/openvid",
       "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
+      "drift_status": "behind",
+      "behind": 3,
       "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 3",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "openscreen",
@@ -1108,7 +1432,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "OBLITERATUS",
@@ -1135,7 +1459,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -1158,11 +1482,11 @@
       "pushed_at": "2026-11-01T02:50:28Z",
       "upstream": "harry0703/MoneyPrinterTurbo",
       "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
+      "drift_status": "behind",
+      "behind": 2,
       "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 2",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "OfficeCLI",
@@ -1189,7 +1513,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "OmniChar",
@@ -1216,61 +1540,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "NeMo-Agent-Toolkit",
-      "full_name": "lianbeast/NeMo-Agent-Toolkit",
-      "description": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/NeMo-Agent-Toolkit",
-      "homepage": "https://docs.nvidia.com/nemo/agent-toolkit/latest/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 100133,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "develop",
-      "created_at": "2026-07-27T02:40:32Z",
-      "updated_at": "2026-11-01T02:51:44Z",
-      "pushed_at": "2026-11-01T02:51:26Z",
-      "upstream": "NVIDIA/NeMo-Agent-Toolkit",
-      "upstream_branch": "develop",
-      "drift_status": "behind",
-      "behind": 1,
-      "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "mobile-mcp",
-      "full_name": "lianbeast/mobile-mcp",
-      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/mobile-mcp",
-      "homepage": "https://mobilenext.ai",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 4291,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-09-27T04:14:04Z",
-      "updated_at": "2026-11-01T02:50:11Z",
-      "pushed_at": "2026-11-01T02:50:01Z",
-      "upstream": "mobile-next/mobile-mcp",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ECC",
@@ -1297,34 +1567,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "iptv",
-      "full_name": "lianbeast/iptv",
-      "description": "Collection of publicly available IPTV channels from all over the world",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/iptv",
-      "homepage": "https://iptv-org.github.io",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 113724,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "master",
-      "created_at": "2026-09-01T08:20:14Z",
-      "updated_at": "2026-11-01T02:48:24Z",
-      "pushed_at": "2026-11-01T02:47:25Z",
-      "upstream": "iptv-org/iptv",
-      "upstream_branch": "master",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "L1B3RT4S",
@@ -1351,34 +1594,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "kde-audio-visualizer",
-      "full_name": "lianbeast/kde-audio-visualizer",
-      "description": "Plasma 6 Desktop Widget to visualize played audio",
-      "language": "QML",
-      "url": "https://github.com/lianbeast/kde-audio-visualizer",
-      "homepage": "https://www.opendesktop.org/p/2359422/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 15588,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-04T00:11:34Z",
-      "updated_at": "2026-11-01T02:48:01Z",
-      "pushed_at": "2026-11-01T02:50:37Z",
-      "upstream": "Muddyblack/audio-wave-visualizer",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ai-job-search",
@@ -1405,7 +1621,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "KARIMO",
@@ -1432,7 +1648,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "invoice-builder",
@@ -1459,7 +1675,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-llm-apps",
@@ -1486,7 +1702,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Invio",
@@ -1513,7 +1729,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Instatic",
@@ -1540,34 +1756,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "free-for-dev",
-      "full_name": "lianbeast/free-for-dev",
-      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-      "language": "HTML",
-      "url": "https://github.com/lianbeast/free-for-dev",
-      "homepage": "https://free-for.dev/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 11203,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "master",
-      "created_at": "2026-07-29T03:31:58Z",
-      "updated_at": "2026-11-01T02:46:24Z",
-      "pushed_at": "2026-11-01T02:44:49Z",
-      "upstream": "ripienaar/free-for-dev",
-      "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 6,
-      "ahead": 0,
-      "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-selfhosted",
@@ -1594,7 +1783,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Deep-Live-Cam",
@@ -1621,7 +1810,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "agency-agents",
@@ -1648,34 +1837,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "graphify",
-      "full_name": "lianbeast/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "url": "https://github.com/lianbeast/graphify",
-      "homepage": "https://www.graphify.com",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 32089,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "v8",
-      "created_at": "2026-08-09T15:04:50Z",
-      "updated_at": "2026-11-01T02:46:05Z",
-      "pushed_at": "2026-11-01T02:44:59Z",
-      "upstream": "Graphify-Labs/graphify",
-      "upstream_branch": "v8",
-      "drift_status": "behind",
-      "behind": 9,
-      "ahead": 0,
-      "drift_detail": "behind by 9",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "hallmark",
@@ -1702,7 +1864,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "free-claude-code",
@@ -1729,7 +1891,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "i-have-adhd",
@@ -1756,7 +1918,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-design-md",
@@ -1783,61 +1945,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "GeoLibre",
-      "full_name": "lianbeast/GeoLibre",
-      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/GeoLibre",
-      "homepage": "https://geolibre.app",
-      "topics": [],
-      "stars": 0,
-      "forks": 1,
-      "open_issues": 0,
-      "size": 65736,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-09T15:07:33Z",
-      "updated_at": "2026-11-01T02:45:26Z",
-      "pushed_at": "2026-11-01T02:44:55Z",
-      "upstream": "opengeos/GeoLibre",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 5,
-      "ahead": 0,
-      "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "buzz",
-      "full_name": "lianbeast/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "url": "https://github.com/lianbeast/buzz",
-      "homepage": "",
-      "topics": [],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 124852,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-07T20:27:35Z",
-      "updated_at": "2026-11-01T02:45:22Z",
-      "pushed_at": "2026-11-01T02:44:42Z",
-      "upstream": "block/buzz",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 8,
-      "ahead": 0,
-      "drift_detail": "behind by 8",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "FinceptTerminal",
@@ -1864,7 +1972,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "diagram-design",
@@ -1891,61 +1999,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "freellmapi",
-      "full_name": "lianbeast/freellmapi",
-      "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/freellmapi",
-      "homepage": "https://freellmapi.co",
-      "topics": [],
-      "stars": 1,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 23680,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-07-29T14:32:56Z",
-      "updated_at": "2026-11-01T02:45:14Z",
-      "pushed_at": "2026-11-01T02:44:49Z",
-      "upstream": "tashfeenahmed/freellmapi",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "dioxus",
-      "full_name": "lianbeast/dioxus",
-      "description": "Fullstack app framework for web, desktop, and mobile.",
-      "language": "Rust",
-      "url": "https://github.com/lianbeast/dioxus",
-      "homepage": "https://dioxuslabs.com",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 52930,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-08-13T02:06:25Z",
-      "updated_at": "2026-11-01T02:45:08Z",
-      "pushed_at": "2026-11-01T02:44:47Z",
-      "upstream": "DioxusLabs/dioxus",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "garden-skills",
@@ -1972,7 +2026,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "9router",
@@ -1999,7 +2053,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "crm",
@@ -2026,7 +2080,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "book-to-skill",
@@ -2053,7 +2107,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Claude-Code-Agent-Monitor",
@@ -2076,38 +2130,11 @@
       "pushed_at": "2026-11-01T03:03:07Z",
       "upstream": "hoangsonww/Claude-Code-Agent-Monitor",
       "upstream_branch": "master",
-      "drift_status": "ok",
-      "behind": 0,
+      "drift_status": "behind",
+      "behind": 164,
       "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
-      "name": "awesome-free-llm-apis",
-      "full_name": "lianbeast/awesome-free-llm-apis",
-      "description": "List of Permanent Free LLM API  (API Keys)",
-      "language": "JavaScript",
-      "url": "https://github.com/lianbeast/awesome-free-llm-apis",
-      "homepage": "",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 493,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-07-18T17:13:08Z",
-      "updated_at": "2026-11-01T02:44:52Z",
-      "pushed_at": "2026-11-01T02:44:37Z",
-      "upstream": "mnfst/awesome-free-llm-apis",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 164",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-harness-engineering",
@@ -2134,7 +2161,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "9drive",
@@ -2161,7 +2188,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "webamp",
@@ -2188,7 +2215,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "reanimate",
@@ -2215,7 +2242,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "openfilm",
@@ -2242,7 +2269,7 @@
       "behind": 3,
       "ahead": 0,
       "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "voicestudio",
@@ -2266,10 +2293,10 @@
       "upstream": "debpalash/VoiceStudio",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 18,
+      "behind": 19,
       "ahead": 0,
-      "drift_detail": "behind by 18",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 19",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "onetake",
@@ -2296,7 +2323,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "openGym",
@@ -2323,7 +2350,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "resume-website",
@@ -2382,10 +2409,10 @@
       "upstream": "Gathin23/cleanyourtv",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 3076,
+      "behind": 3080,
       "ahead": 0,
-      "drift_detail": "behind by 3076",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 3080",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "coolerdash-arch-lcd",
@@ -2439,7 +2466,7 @@
       "behind": null,
       "ahead": null,
       "drift_detail": "branch mismatch: yours 'release/v3.8.49' vs upstream 'release/v3.8.53'",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Personal-Site",
@@ -2493,7 +2520,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ascii",
@@ -2520,7 +2547,7 @@
       "behind": 8,
       "ahead": 0,
       "drift_detail": "behind by 8",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "50-final-year-projects-with-source-code",
@@ -2547,7 +2574,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "rea",
@@ -2571,10 +2598,10 @@
       "upstream": "morluto/rea",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 2623,
+      "behind": 2630,
       "ahead": 0,
-      "drift_detail": "behind by 2623",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 2630",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "FL-STUDIO-AI",
@@ -2601,7 +2628,7 @@
       "behind": 1,
       "ahead": 0,
       "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "magicui",
@@ -2625,10 +2652,10 @@
       "upstream": "magicuidesign/magicui",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 3,
+      "behind": 8,
       "ahead": 0,
-      "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 8",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "The-Sleep-Etiquette",
@@ -2679,10 +2706,10 @@
       "upstream": "tangency-labs/solidcraft",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 2501,
+      "behind": 2586,
       "ahead": 0,
-      "drift_detail": "behind by 2501",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 2586",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "rembrandt",
@@ -2709,7 +2736,7 @@
       "behind": 106,
       "ahead": 0,
       "drift_detail": "behind by 106",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "stremio-web",
@@ -2736,7 +2763,7 @@
       "behind": 12,
       "ahead": 0,
       "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "desigma",
@@ -2760,10 +2787,10 @@
       "upstream": "deepfounder-ai/desigma",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 160,
+      "behind": 162,
       "ahead": 0,
-      "drift_detail": "behind by 160",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 162",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "iFixAi",
@@ -2790,7 +2817,7 @@
       "behind": 50,
       "ahead": 0,
       "drift_detail": "behind by 50",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "nerd-fonts",
@@ -2817,7 +2844,7 @@
       "behind": 10,
       "ahead": 0,
       "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "rEFIndWindowsInstaller",
@@ -2844,7 +2871,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Spider-Man",
@@ -2898,7 +2925,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "lenis",
@@ -2925,7 +2952,7 @@
       "behind": 6,
       "ahead": 0,
       "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "hamna-Henna-Site",
@@ -2979,7 +3006,7 @@
       "behind": 1,
       "ahead": 0,
       "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "xtool",
@@ -3006,7 +3033,7 @@
       "behind": 30,
       "ahead": 0,
       "drift_detail": "behind by 30",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-github-profile-readme",
@@ -3033,7 +3060,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "frontend-slides",
@@ -3060,7 +3087,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ever-gauzy",
@@ -3084,10 +3111,10 @@
       "upstream": "ever-co/ever-gauzy",
       "upstream_branch": "develop",
       "drift_status": "behind",
-      "behind": 4029,
+      "behind": 4062,
       "ahead": 0,
-      "drift_detail": "behind by 4029",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 4062",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "oil-ui",
@@ -3114,7 +3141,7 @@
       "behind": 48,
       "ahead": 0,
       "drift_detail": "behind by 48",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-seedance-2.5",
@@ -3138,10 +3165,10 @@
       "upstream": "ZeroLu/awesome-seedance-2.5",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 22,
+      "behind": 23,
       "ahead": 0,
-      "drift_detail": "behind by 22",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 23",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-seedance-2.5-prompts-skills",
@@ -3165,10 +3192,10 @@
       "upstream": "AtlasCloudAI/awesome-seedance-2.5-prompts-skills",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 18,
+      "behind": 19,
       "ahead": 0,
-      "drift_detail": "behind by 18",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_detail": "behind by 19",
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "freevideo",
@@ -3195,7 +3222,7 @@
       "behind": 857,
       "ahead": 0,
       "drift_detail": "behind by 857",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "VoxCPM",
@@ -3222,7 +3249,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "geo-seo-claude",
@@ -3249,7 +3276,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "heartlib",
@@ -3276,7 +3303,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Lian-Arch-Linux-Site",
@@ -3330,7 +3357,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ai-legal-claude",
@@ -3357,7 +3384,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "camofox-browser",
@@ -3384,7 +3411,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "icloud-linux",
@@ -3411,7 +3438,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "scroll-craft",
@@ -3438,7 +3465,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "latentbox",
@@ -3465,7 +3492,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ai-agent-book",
@@ -3492,7 +3519,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "claude-video",
@@ -3519,7 +3546,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "liquidglass",
@@ -3546,7 +3573,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "galaxy",
@@ -3573,7 +3600,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "threeui",
@@ -3600,7 +3627,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "shadergradient",
@@ -3627,7 +3654,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "code-review-graph",
@@ -3654,7 +3681,7 @@
       "behind": null,
       "ahead": null,
       "drift_detail": "branch mismatch: yours 'main' vs upstream 'staging'",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "CL4R1T4S",
@@ -3681,7 +3708,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "omniget",
@@ -3708,7 +3735,7 @@
       "behind": null,
       "ahead": null,
       "drift_detail": "branch not found upstream or locally",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "EliteHuman",
@@ -3765,33 +3792,6 @@
       "drift_checked_at": null
     },
     {
-      "name": "vibeyard",
-      "full_name": "lianbeast/vibeyard",
-      "description": "The IDE built for AI coding agents.",
-      "language": null,
-      "url": "https://github.com/lianbeast/vibeyard",
-      "homepage": "",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 48976,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-09-22T13:11:15Z",
-      "updated_at": "2026-09-22T13:11:15Z",
-      "pushed_at": "2026-09-03T10:07:59Z",
-      "upstream": "elirantutia/vibeyard",
-      "upstream_branch": "main",
-      "drift_status": "ok",
-      "behind": 0,
-      "ahead": 0,
-      "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
-    },
-    {
       "name": "opcode",
       "full_name": "lianbeast/opcode",
       "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
@@ -3816,7 +3816,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "3dviz-pro-max",
@@ -3843,7 +3843,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "MoneyPrinterV2",
@@ -3870,7 +3870,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "autosocial",
@@ -3897,7 +3897,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Anthropic-Cybersecurity-Skills",
@@ -3924,7 +3924,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Website-downloader",
@@ -3951,7 +3951,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "awesome-design",
@@ -3978,7 +3978,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "MoneyPrinterTurbo-Extended",
@@ -4005,7 +4005,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Maya",
@@ -4032,7 +4032,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "UI-TARS",
@@ -4059,7 +4059,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "midday",
@@ -4086,7 +4086,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "holaOS",
@@ -4113,7 +4113,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "SpotiFLAC",
@@ -4140,7 +4140,7 @@
       "behind": 0,
       "ahead": 316,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "jarvis-ai-assistant",
@@ -4167,7 +4167,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "videogenpro",
@@ -4194,7 +4194,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "larasend",
@@ -4221,7 +4221,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "holehe",
@@ -4248,7 +4248,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "omniparse",
@@ -4275,7 +4275,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "agent-skills-manager",
@@ -4302,7 +4302,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "musicgpt",
@@ -4329,7 +4329,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "WatchYourLAN",
@@ -4356,7 +4356,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "claude-code-ui",
@@ -4383,7 +4383,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "tvlist-awesome-m3u-m3u8",
@@ -4410,7 +4410,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "agentic-inbox",
@@ -4437,7 +4437,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "G0DM0D3",
@@ -4464,7 +4464,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "phoneintel",
@@ -4491,7 +4491,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Freebuff2API",
@@ -4518,7 +4518,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Crucix",
@@ -4545,7 +4545,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "OpenPlanter",
@@ -4572,7 +4572,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Vehicle-OSINT-Collection",
@@ -4599,7 +4599,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "SkyReels-V2",
@@ -4626,7 +4626,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Moodify-Emotion-Music-App",
@@ -4653,7 +4653,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "ApiVault",
@@ -4680,7 +4680,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "tgbot-verify",
@@ -4707,7 +4707,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "Ada-SI",
@@ -4734,7 +4734,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     },
     {
       "name": "developer-portfolio",
@@ -4761,7 +4761,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-01T17:17:05.304158+00:00"
+      "drift_checked_at": "2026-11-02T04:45:12.369331+00:00"
     }
   ]
 }
