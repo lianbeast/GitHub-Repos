@@ -1,8 +1,89 @@
 {
   "user": "lianbeast",
-  "generated_at": "2026-11-21T14:26:45.498010+00:00",
+  "generated_at": "2026-11-21T18:19:17.484681+00:00",
   "count": 178,
   "repos": [
+    {
+      "name": "YuE2-Studio",
+      "full_name": "lianbeast/YuE2-Studio",
+      "description": "Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.",
+      "language": "Rust",
+      "url": "https://github.com/lianbeast/YuE2-Studio",
+      "homepage": "https://timoncool.github.io/YuE2-Studio/",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 154615,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-11-01T03:13:48Z",
+      "updated_at": "2026-11-21T17:12:31Z",
+      "pushed_at": "2026-11-21T16:10:48Z",
+      "upstream": "timoncool/YuE2-Studio",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
+    },
+    {
+      "name": "stremio-web",
+      "full_name": "lianbeast/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "TypeScript",
+      "url": "https://github.com/lianbeast/stremio-web",
+      "homepage": "https://web.stremio.com",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 60398,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "development",
+      "created_at": "2026-10-15T04:28:24Z",
+      "updated_at": "2026-11-21T17:06:45Z",
+      "pushed_at": "2026-11-21T16:06:25Z",
+      "upstream": "Stremio/stremio-web",
+      "upstream_branch": "development",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
+    },
+    {
+      "name": "echo-dot-assist",
+      "full_name": "lianbeast/echo-dot-assist",
+      "description": "Turn Amazon Echos (Echo Dot 3, Echo Dot 2, Echo 2) into local Home Assistant voice satellites. Keeps Amazon's mic processing and wake word engine, replaces Alexa with a small C daemon speaking ESPHome or Wyoming. Multiroom music via Music Assistant, Bluetooth speaker and proxy, no cloud.",
+      "language": "C",
+      "url": "https://github.com/lianbeast/echo-dot-assist",
+      "homepage": "",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "size": 9189,
+      "fork": true,
+      "archived": false,
+      "has_pages": false,
+      "default_branch": "main",
+      "created_at": "2026-11-10T17:34:29Z",
+      "updated_at": "2026-11-21T17:04:37Z",
+      "pushed_at": "2026-11-21T16:04:27Z",
+      "upstream": "Gamer92000/echo-dot-assist",
+      "upstream_branch": "main",
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 0,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
+    },
     {
       "name": "GitHub-Repos",
       "full_name": "lianbeast/GitHub-Repos",
@@ -14,14 +95,14 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 1432,
+      "size": 1435,
       "fork": false,
       "archived": false,
       "has_pages": true,
       "default_branch": "main",
       "created_at": "2026-10-09T06:21:44Z",
       "updated_at": "2026-11-12T15:53:29Z",
-      "pushed_at": "2026-11-21T05:52:55Z",
+      "pushed_at": "2026-11-21T14:26:46Z",
       "upstream": "",
       "upstream_branch": "",
       "drift_status": "",
@@ -68,21 +149,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 450354,
+      "size": 580838,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-15T07:01:11Z",
       "updated_at": "2026-11-11T17:35:11Z",
-      "pushed_at": "2026-11-11T16:34:51Z",
+      "pushed_at": "2026-11-21T16:03:59Z",
       "upstream": "tangency-labs/solidcraft",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 2357,
-      "ahead": 1,
-      "drift_detail": "behind by 2357, 1 local commit(s)",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "behind": 13,
+      "ahead": 0,
+      "drift_detail": "behind by 13",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "freevideo",
@@ -95,48 +176,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 52848,
+      "size": 61542,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-10T13:54:34Z",
       "updated_at": "2026-11-10T22:45:50Z",
-      "pushed_at": "2026-11-10T21:45:35Z",
+      "pushed_at": "2026-11-21T16:04:16Z",
       "upstream": "FlashML-org/FreeVideo",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 566,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 566",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
-    },
-    {
-      "name": "echo-dot-assist",
-      "full_name": "lianbeast/echo-dot-assist",
-      "description": "Turn Amazon Echos (Echo Dot 3, Echo Dot 2, Echo 2) into local Home Assistant voice satellites. Keeps Amazon's mic processing and wake word engine, replaces Alexa with a small C daemon speaking ESPHome or Wyoming. Multiroom music via Music Assistant, Bluetooth speaker and proxy, no cloud.",
-      "language": null,
-      "url": "https://github.com/lianbeast/echo-dot-assist",
-      "homepage": "",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 10035,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-11-10T17:34:29Z",
-      "updated_at": "2026-11-10T17:34:29Z",
-      "pushed_at": "2026-11-10T17:27:20Z",
-      "upstream": "Gamer92000/echo-dot-assist",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 30,
-      "ahead": 0,
-      "drift_detail": "behind by 30",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "The-Sleep-Etiquette",
@@ -176,21 +230,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 9442,
+      "size": 9511,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-13T04:53:40Z",
       "updated_at": "2026-11-10T15:30:21Z",
-      "pushed_at": "2026-11-10T15:30:03Z",
+      "pushed_at": "2026-11-21T16:04:40Z",
       "upstream": "darkroomengineering/lenis",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 25,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 25",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "FL-STUDIO-AI",
@@ -217,7 +271,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "xtool",
@@ -230,21 +284,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 10874,
+      "size": 10883,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-11T20:30:29Z",
       "updated_at": "2026-11-10T15:29:30Z",
-      "pushed_at": "2026-11-10T15:29:13Z",
+      "pushed_at": "2026-11-21T16:04:52Z",
       "upstream": "xtool-org/xtool",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 6,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "x-tools",
@@ -257,21 +311,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 89893,
+      "size": 89897,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-10-13T12:09:36Z",
       "updated_at": "2026-11-10T15:27:06Z",
-      "pushed_at": "2026-11-10T15:26:54Z",
+      "pushed_at": "2026-11-21T16:05:02Z",
       "upstream": "x-tools-author/x-tools",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 2,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "kde-glassy-system-monitor",
@@ -284,21 +338,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 19075,
+      "size": 19298,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-10-12T03:32:10Z",
       "updated_at": "2026-11-10T15:26:16Z",
-      "pushed_at": "2026-11-10T15:26:10Z",
+      "pushed_at": "2026-11-21T16:05:36Z",
       "upstream": "Muddyblack/kde-glassy-system-monitor",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 7,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 7",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "nerd-fonts",
@@ -325,7 +379,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ever-gauzy",
@@ -338,21 +392,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 313602,
+      "size": 328067,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "develop",
       "created_at": "2026-10-09T11:57:52Z",
       "updated_at": "2026-11-10T15:19:42Z",
-      "pushed_at": "2026-11-10T15:18:50Z",
+      "pushed_at": "2026-11-21T16:05:49Z",
       "upstream": "ever-co/ever-gauzy",
       "upstream_branch": "develop",
-      "drift_status": "behind",
-      "behind": 2133,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 2133",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-seedance-2.5",
@@ -365,21 +419,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 1361151,
+      "size": 1361293,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-09T09:37:47Z",
       "updated_at": "2026-11-10T15:19:32Z",
-      "pushed_at": "2026-11-10T15:19:17Z",
+      "pushed_at": "2026-11-21T16:05:26Z",
       "upstream": "ZeroLu/awesome-seedance-2.5",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 11,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 11",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-seedance-2.5-prompts-skills",
@@ -392,21 +446,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 8003,
+      "size": 10001,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-09T09:38:57Z",
       "updated_at": "2026-11-10T15:19:32Z",
-      "pushed_at": "2026-11-10T15:19:04Z",
+      "pushed_at": "2026-11-21T16:05:38Z",
       "upstream": "AtlasCloudAI/awesome-seedance-2.5-prompts-skills",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 11,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 11",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "oil-ui",
@@ -419,21 +473,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 3504,
+      "size": 4179,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-05T17:09:39Z",
       "updated_at": "2026-11-10T15:18:20Z",
-      "pushed_at": "2026-11-10T15:17:49Z",
+      "pushed_at": "2026-11-21T16:06:00Z",
       "upstream": "oil-oil/oil-ui",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 14,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 14",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "desigma",
@@ -446,48 +500,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 20301,
+      "size": 20791,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-14T22:12:45Z",
       "updated_at": "2026-11-10T15:17:41Z",
-      "pushed_at": "2026-11-10T15:17:07Z",
+      "pushed_at": "2026-11-21T16:06:13Z",
       "upstream": "deepfounder-ai/desigma",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 24,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 24",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
-    },
-    {
-      "name": "stremio-web",
-      "full_name": "lianbeast/stremio-web",
-      "description": "Stremio - Freedom to Stream",
-      "language": "JavaScript",
-      "url": "https://github.com/lianbeast/stremio-web",
-      "homepage": "https://web.stremio.com",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 59939,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "development",
-      "created_at": "2026-10-15T04:28:24Z",
-      "updated_at": "2026-11-10T15:16:32Z",
-      "pushed_at": "2026-11-10T15:15:56Z",
-      "upstream": "Stremio/stremio-web",
-      "upstream_branch": "development",
-      "drift_status": "behind",
-      "behind": 37,
-      "ahead": 0,
-      "drift_detail": "behind by 37",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "iFixAi",
@@ -500,21 +527,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 17240,
+      "size": 17142,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-14T19:37:30Z",
       "updated_at": "2026-11-10T15:15:58Z",
-      "pushed_at": "2026-11-10T15:15:08Z",
+      "pushed_at": "2026-11-21T16:06:38Z",
       "upstream": "ifixai-ai/iFixAi",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 12,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "rembrandt",
@@ -527,21 +554,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 109182,
+      "size": 108318,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-16T10:53:14Z",
       "updated_at": "2026-11-10T15:15:03Z",
-      "pushed_at": "2026-11-10T15:14:31Z",
+      "pushed_at": "2026-11-21T16:06:47Z",
       "upstream": "thesnarkitecht/rembrandt",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 2,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "magicui",
@@ -554,21 +581,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 83698,
+      "size": 83797,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-17T21:32:23Z",
       "updated_at": "2026-11-10T15:14:41Z",
-      "pushed_at": "2026-11-10T15:14:17Z",
+      "pushed_at": "2026-11-21T16:06:55Z",
       "upstream": "magicuidesign/magicui",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 19,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 19",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ascii",
@@ -581,21 +608,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 3044,
+      "size": 3093,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-18T08:03:13Z",
       "updated_at": "2026-11-10T15:14:02Z",
-      "pushed_at": "2026-11-10T15:13:49Z",
+      "pushed_at": "2026-11-21T16:07:05Z",
       "upstream": "bas3line/ascii",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 4,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "rea",
@@ -608,21 +635,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 142623,
+      "size": 196938,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-18T07:36:54Z",
       "updated_at": "2026-11-10T15:13:24Z",
-      "pushed_at": "2026-11-10T15:09:30Z",
+      "pushed_at": "2026-11-21T16:07:14Z",
       "upstream": "morluto/rea",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 2337,
+      "behind": 37,
       "ahead": 0,
-      "drift_detail": "behind by 2337",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 37",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "voicestudio",
@@ -635,21 +662,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 203511,
+      "size": 211156,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-30T11:45:24Z",
       "updated_at": "2026-11-10T15:12:43Z",
-      "pushed_at": "2026-11-10T15:08:03Z",
+      "pushed_at": "2026-11-21T16:10:32Z",
       "upstream": "debpalash/VoiceStudio",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 834,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 834",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ECC",
@@ -662,21 +689,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 59730,
+      "size": 63393,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-07-29T13:40:16Z",
       "updated_at": "2026-11-10T15:10:54Z",
-      "pushed_at": "2026-11-10T15:05:28Z",
+      "pushed_at": "2026-11-21T16:11:48Z",
       "upstream": "affaan-m/ECC",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 847,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 847",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-llm-apps",
@@ -696,14 +723,14 @@
       "default_branch": "main",
       "created_at": "2026-07-24T23:54:35Z",
       "updated_at": "2026-11-10T15:09:50Z",
-      "pushed_at": "2026-11-10T15:06:47Z",
+      "pushed_at": "2026-11-21T16:11:12Z",
       "upstream": "Shubhamsaboo/awesome-llm-apps",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 19,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 19",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "openGym",
@@ -716,21 +743,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 327946,
+      "size": 391441,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-18T07:48:08Z",
       "updated_at": "2026-11-10T15:09:36Z",
-      "pushed_at": "2026-11-10T15:08:34Z",
+      "pushed_at": "2026-11-21T16:08:00Z",
       "upstream": "DuarteSantos8/openGym",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1065,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 1065",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "onetake",
@@ -743,21 +770,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 128608,
+      "size": 128615,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-30T11:44:42Z",
       "updated_at": "2026-11-10T15:09:32Z",
-      "pushed_at": "2026-11-10T15:09:19Z",
+      "pushed_at": "2026-11-21T16:07:26Z",
       "upstream": "feitangyuan/onetake",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "cleanyourtv",
@@ -770,21 +797,21 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
-      "size": 85900,
+      "size": 98285,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-10-22T22:51:39Z",
       "updated_at": "2026-11-10T15:09:15Z",
-      "pushed_at": "2026-11-10T15:08:59Z",
+      "pushed_at": "2026-11-21T16:07:35Z",
       "upstream": "Gathin23/cleanyourtv",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1005,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 1005",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "webamp",
@@ -797,21 +824,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 90780,
+      "size": 90799,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-10-31T23:40:18Z",
       "updated_at": "2026-11-10T15:09:07Z",
-      "pushed_at": "2026-11-10T15:08:43Z",
+      "pushed_at": "2026-11-21T16:07:48Z",
       "upstream": "captbaritone/webamp",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 3,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "openfilm",
@@ -838,7 +865,7 @@
       "behind": 57,
       "ahead": 31,
       "drift_detail": "behind by 57, 31 local commit(s)",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "agency-agents",
@@ -865,7 +892,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Deep-Live-Cam",
@@ -892,7 +919,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "lemo-opuscar",
@@ -905,48 +932,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 152824,
+      "size": 210545,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-11-02T18:10:53Z",
       "updated_at": "2026-11-10T15:07:43Z",
-      "pushed_at": "2026-11-10T15:07:01Z",
+      "pushed_at": "2026-11-21T16:11:01Z",
       "upstream": "lemomo-ai/lemo-opuscar",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 12,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
-    },
-    {
-      "name": "YuE2-Studio",
-      "full_name": "lianbeast/YuE2-Studio",
-      "description": "Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.",
-      "language": "TypeScript",
-      "url": "https://github.com/lianbeast/YuE2-Studio",
-      "homepage": "https://timoncool.github.io/YuE2-Studio/",
-      "topics": [],
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "size": 141720,
-      "fork": true,
-      "archived": false,
-      "has_pages": false,
-      "default_branch": "main",
-      "created_at": "2026-11-01T03:13:48Z",
-      "updated_at": "2026-11-10T15:07:42Z",
-      "pushed_at": "2026-11-10T15:07:12Z",
-      "upstream": "timoncool/YuE2-Studio",
-      "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1317,
-      "ahead": 0,
-      "drift_detail": "behind by 1317",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "9router",
@@ -959,21 +959,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 18675,
+      "size": 19039,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-07-18T19:23:00Z",
       "updated_at": "2026-11-10T15:07:23Z",
-      "pushed_at": "2026-11-10T15:06:35Z",
+      "pushed_at": "2026-11-21T16:11:24Z",
       "upstream": "decolua/9router",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 39,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 39",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "FinceptTerminal",
@@ -986,21 +986,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 176952,
+      "size": 208005,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-01T21:36:42Z",
       "updated_at": "2026-11-10T15:06:05Z",
-      "pushed_at": "2026-11-10T15:05:18Z",
+      "pushed_at": "2026-11-21T16:12:08Z",
       "upstream": "Fincept-Corporation/FinceptTerminal",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 12,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "garden-skills",
@@ -1013,21 +1013,21 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
-      "size": 76323,
+      "size": 76314,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-31T19:13:51Z",
       "updated_at": "2026-11-10T15:05:31Z",
-      "pushed_at": "2026-11-10T15:05:06Z",
+      "pushed_at": "2026-11-21T16:12:18Z",
       "upstream": "ConardLi/garden-skills",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 15,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 15",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Invio",
@@ -1040,21 +1040,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 1777,
+      "size": 1908,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-16T23:43:52Z",
       "updated_at": "2026-11-10T15:05:02Z",
-      "pushed_at": "2026-11-10T15:04:45Z",
+      "pushed_at": "2026-11-21T16:12:34Z",
       "upstream": "kittendevv/Invio",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 17,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 17",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "OfficeCLI",
@@ -1067,21 +1067,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 319202,
+      "size": 319297,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-07-30T07:27:59Z",
       "updated_at": "2026-11-10T15:04:39Z",
-      "pushed_at": "2026-11-10T15:04:05Z",
+      "pushed_at": "2026-11-21T16:12:43Z",
       "upstream": "iOfficeAI/OfficeCLI",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 29,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 29",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-selfhosted",
@@ -1094,21 +1094,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 17294,
+      "size": 17411,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-07-29T03:29:47Z",
       "updated_at": "2026-11-10T15:03:53Z",
-      "pushed_at": "2026-11-10T15:01:45Z",
+      "pushed_at": "2026-11-21T16:13:37Z",
       "upstream": "awesome-selfhosted/awesome-selfhosted",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 5,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "superfile",
@@ -1121,21 +1121,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 91280,
+      "size": 93396,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-01T13:05:02Z",
       "updated_at": "2026-11-10T15:03:32Z",
-      "pushed_at": "2026-11-10T15:03:06Z",
+      "pushed_at": "2026-11-21T16:12:55Z",
       "upstream": "yorukot/superfile",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 38,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 38",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "video-shotcraft",
@@ -1148,21 +1148,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 198187,
+      "size": 199658,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-23T11:36:28Z",
       "updated_at": "2026-11-10T15:03:17Z",
-      "pushed_at": "2026-11-10T15:02:50Z",
+      "pushed_at": "2026-11-21T16:13:07Z",
       "upstream": "Vincentwei1021/video-shotcraft",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 21,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 21",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "OpenBB",
@@ -1175,21 +1175,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 1482052,
+      "size": 1482188,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "develop",
       "created_at": "2026-07-25T18:14:26Z",
       "updated_at": "2026-11-10T15:02:24Z",
-      "pushed_at": "2026-11-10T15:02:13Z",
+      "pushed_at": "2026-11-21T16:13:20Z",
       "upstream": "openbq-org/OpenBB",
       "upstream_branch": "develop",
-      "drift_status": "behind",
-      "behind": 6,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "openvid",
@@ -1216,7 +1216,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "invoice-builder",
@@ -1229,21 +1229,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 58947,
+      "size": 57892,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-20T15:49:12Z",
       "updated_at": "2026-11-10T15:01:55Z",
-      "pushed_at": "2026-11-10T15:01:30Z",
+      "pushed_at": "2026-11-21T16:13:47Z",
       "upstream": "piratuks/invoice-builder",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 22,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 22",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "mobile-mcp",
@@ -1256,21 +1256,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 4358,
+      "size": 4398,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-27T04:14:04Z",
       "updated_at": "2026-11-10T15:01:05Z",
-      "pushed_at": "2026-11-10T15:00:50Z",
+      "pushed_at": "2026-11-21T16:14:01Z",
       "upstream": "mobile-next/mobile-mcp",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 12,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Agent-Reach",
@@ -1297,7 +1297,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "uniface",
@@ -1310,21 +1310,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 107501,
+      "size": 107143,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-09T19:47:17Z",
       "updated_at": "2026-11-10T15:00:35Z",
-      "pushed_at": "2026-11-10T15:00:18Z",
+      "pushed_at": "2026-11-21T16:15:34Z",
       "upstream": "yakhyo/uniface",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 4,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "dioxus",
@@ -1337,21 +1337,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 52732,
+      "size": 52733,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-13T02:06:25Z",
       "updated_at": "2026-11-10T15:00:35Z",
-      "pushed_at": "2026-11-10T15:00:05Z",
+      "pushed_at": "2026-11-21T16:15:47Z",
       "upstream": "DioxusLabs/dioxus",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ai-job-search",
@@ -1364,21 +1364,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 5645,
+      "size": 5837,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-07-17T04:29:06Z",
       "updated_at": "2026-11-10T15:00:25Z",
-      "pushed_at": "2026-11-10T14:59:27Z",
+      "pushed_at": "2026-11-21T16:16:25Z",
       "upstream": "ai-job-search-dev/ai-job-search",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 29,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 29",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Claude-Code-Agent-Monitor",
@@ -1391,21 +1391,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 129865,
+      "size": 124852,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-08-02T03:11:24Z",
       "updated_at": "2026-11-10T15:00:06Z",
-      "pushed_at": "2026-11-10T14:59:56Z",
+      "pushed_at": "2026-11-21T16:28:45Z",
       "upstream": "hoangsonww/Claude-Code-Agent-Monitor",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 14,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 14",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "claude-hud",
@@ -1418,21 +1418,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 3674,
+      "size": 3680,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-26T20:39:42Z",
       "updated_at": "2026-11-10T15:00:04Z",
-      "pushed_at": "2026-11-10T14:59:46Z",
+      "pushed_at": "2026-11-21T16:16:10Z",
       "upstream": "jarrodwatts/claude-hud",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 4,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "diagram-design",
@@ -1445,21 +1445,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 35180,
+      "size": 35775,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-05T13:17:30Z",
       "updated_at": "2026-11-10T14:57:47Z",
-      "pushed_at": "2026-11-10T14:57:19Z",
+      "pushed_at": "2026-11-21T16:16:37Z",
       "upstream": "cathrynlavery/diagram-design",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 30,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 30",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Paymenter",
@@ -1472,21 +1472,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 11773,
+      "size": 11890,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-08-09T15:03:53Z",
       "updated_at": "2026-11-10T14:56:57Z",
-      "pushed_at": "2026-11-10T14:56:47Z",
+      "pushed_at": "2026-11-21T16:17:02Z",
       "upstream": "Paymenter/Paymenter",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 10,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "graphify",
@@ -1499,21 +1499,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 34554,
+      "size": 36588,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "v8",
       "created_at": "2026-08-09T15:04:50Z",
       "updated_at": "2026-11-10T14:56:51Z",
-      "pushed_at": "2026-11-10T14:56:23Z",
+      "pushed_at": "2026-11-21T16:17:13Z",
       "upstream": "Graphify-Labs/graphify",
       "upstream_branch": "v8",
-      "drift_status": "behind",
-      "behind": 213,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 213",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "free-for-dev",
@@ -1526,21 +1526,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 11079,
+      "size": 11283,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-07-29T03:31:58Z",
       "updated_at": "2026-11-10T14:56:48Z",
-      "pushed_at": "2026-11-10T14:55:19Z",
+      "pushed_at": "2026-11-21T16:17:47Z",
       "upstream": "ripienaar/free-for-dev",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 127,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 127",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-harness-engineering",
@@ -1553,21 +1553,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 1202,
+      "size": 1087,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-05T13:18:15Z",
       "updated_at": "2026-11-10T14:56:29Z",
-      "pushed_at": "2026-11-10T14:56:14Z",
+      "pushed_at": "2026-11-21T16:17:23Z",
       "upstream": "ai-boost/awesome-harness-engineering",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 58,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 58",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "hallmark",
@@ -1580,21 +1580,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 233496,
+      "size": 233518,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-31T19:14:25Z",
       "updated_at": "2026-11-10T14:56:16Z",
-      "pushed_at": "2026-11-10T14:55:45Z",
+      "pushed_at": "2026-11-21T16:17:37Z",
       "upstream": "Nutlope/hallmark",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 8,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 8",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "public-apis",
@@ -1621,7 +1621,7 @@
       "behind": 310,
       "ahead": 0,
       "drift_detail": "behind by 310",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "freellmapi",
@@ -1648,7 +1648,7 @@
       "behind": 69,
       "ahead": 0,
       "drift_detail": "behind by 69",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "gods-eye-view",
@@ -1672,10 +1672,10 @@
       "upstream": "bilawalsidhu/gods-eye-view",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 1867,
+      "behind": 1870,
       "ahead": 0,
-      "drift_detail": "behind by 1867",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 1870",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "GeoLibre",
@@ -1699,10 +1699,10 @@
       "upstream": "opengeos/GeoLibre",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 114,
+      "behind": 116,
       "ahead": 0,
-      "drift_detail": "behind by 114",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 116",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "openship",
@@ -1726,10 +1726,10 @@
       "upstream": "oblien/openship",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 143,
+      "behind": 151,
       "ahead": 0,
-      "drift_detail": "behind by 143",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 151",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "kde-audio-visualizer",
@@ -1756,7 +1756,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "tweakcc",
@@ -1780,10 +1780,10 @@
       "upstream": "Piebald-AI/tweakcc",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 10,
+      "behind": 11,
       "ahead": 0,
-      "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 11",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "openscreen-NEW",
@@ -1807,10 +1807,10 @@
       "upstream": "getopenscreen/openscreen",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 224,
+      "behind": 227,
       "ahead": 0,
-      "drift_detail": "behind by 224",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 227",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "prime-agent",
@@ -1837,7 +1837,7 @@
       "behind": 117,
       "ahead": 0,
       "drift_detail": "behind by 117",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "AstrBot",
@@ -1864,7 +1864,7 @@
       "behind": 56,
       "ahead": 0,
       "drift_detail": "behind by 56",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "orca",
@@ -1888,10 +1888,10 @@
       "upstream": "stablyai/orca",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 3046,
+      "behind": 3073,
       "ahead": 0,
-      "drift_detail": "behind by 3046",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 3073",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "buzz",
@@ -1904,21 +1904,21 @@
       "stars": 1,
       "forks": 0,
       "open_issues": 0,
-      "size": 133398,
+      "size": 153095,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-07T20:27:35Z",
       "updated_at": "2026-11-10T14:51:14Z",
-      "pushed_at": "2026-11-10T14:50:42Z",
+      "pushed_at": "2026-11-21T16:18:10Z",
       "upstream": "block/buzz",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 250,
+      "behind": 1,
       "ahead": 0,
-      "drift_detail": "behind by 250",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 1",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "impeccable",
@@ -1931,21 +1931,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 604034,
+      "size": 654791,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-25T04:50:50Z",
       "updated_at": "2026-11-10T14:49:09Z",
-      "pushed_at": "2026-11-10T14:47:59Z",
+      "pushed_at": "2026-11-21T16:18:22Z",
       "upstream": "pbakaus/impeccable",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1001,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 1001",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "iptv",
@@ -1958,21 +1958,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 114614,
+      "size": 114852,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-09-01T08:20:14Z",
       "updated_at": "2026-11-10T14:49:04Z",
-      "pushed_at": "2026-11-10T14:47:45Z",
+      "pushed_at": "2026-11-21T16:18:32Z",
       "upstream": "iptv-org/iptv",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 123,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 123",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "free-claude-code",
@@ -1999,7 +1999,7 @@
       "behind": 42,
       "ahead": 0,
       "drift_detail": "behind by 42",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "obsidian-releases",
@@ -2012,21 +2012,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 345438,
+      "size": 351982,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-08-02T03:12:20Z",
       "updated_at": "2026-11-10T14:48:33Z",
-      "pushed_at": "2026-11-10T14:46:55Z",
+      "pushed_at": "2026-11-21T16:18:51Z",
       "upstream": "obsidianmd/obsidian-releases",
       "upstream_branch": "master",
       "drift_status": "behind",
-      "behind": 189,
+      "behind": 2,
       "ahead": 0,
-      "drift_detail": "behind by 189",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 2",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "mastra",
@@ -2050,10 +2050,10 @@
       "upstream": "mastra-ai/mastra",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 769,
+      "behind": 772,
       "ahead": 0,
-      "drift_detail": "behind by 769",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 772",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -2080,7 +2080,7 @@
       "behind": 28,
       "ahead": 0,
       "drift_detail": "behind by 28",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "NeMo-Agent-Toolkit",
@@ -2107,7 +2107,7 @@
       "behind": 25,
       "ahead": 0,
       "drift_detail": "behind by 25",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "open-seo",
@@ -2134,7 +2134,7 @@
       "behind": 101,
       "ahead": 0,
       "drift_detail": "behind by 101",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Open-Generative-AI",
@@ -2147,21 +2147,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 116190,
+      "size": 116372,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-07-30T04:11:18Z",
       "updated_at": "2026-11-10T14:46:43Z",
-      "pushed_at": "2026-11-10T14:46:36Z",
+      "pushed_at": "2026-11-21T16:19:02Z",
       "upstream": "Anil-matcha/Open-Generative-AI",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 36,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 36",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "OpenViking",
@@ -2174,21 +2174,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 229252,
+      "size": 244237,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-05T13:19:02Z",
       "updated_at": "2026-11-10T14:46:42Z",
-      "pushed_at": "2026-11-10T14:46:13Z",
+      "pushed_at": "2026-11-21T17:00:35Z",
       "upstream": "volcengine/OpenViking",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 318,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 318",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "transformers",
@@ -2201,21 +2201,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 441297,
+      "size": 448412,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-10T05:32:47Z",
       "updated_at": "2026-11-10T14:46:25Z",
-      "pushed_at": "2026-11-10T14:45:44Z",
+      "pushed_at": "2026-11-21T16:19:35Z",
       "upstream": "huggingface/transformers",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 228,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 228",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "semantica",
@@ -2242,7 +2242,7 @@
       "behind": 20,
       "ahead": 0,
       "drift_detail": "behind by 20",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "VoxCPM",
@@ -2269,7 +2269,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "vphone-cli",
@@ -2282,21 +2282,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 62631,
+      "size": 62583,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-27T15:06:37Z",
       "updated_at": "2026-11-10T14:46:09Z",
-      "pushed_at": "2026-11-10T14:45:31Z",
+      "pushed_at": "2026-11-21T16:19:54Z",
       "upstream": "Lakr233/vphone-cli",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 174,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 174",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Switchyard",
@@ -2309,21 +2309,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 21989,
+      "size": 22444,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-18T09:45:35Z",
       "updated_at": "2026-11-10T14:46:02Z",
-      "pushed_at": "2026-11-10T14:45:53Z",
+      "pushed_at": "2026-11-21T16:19:23Z",
       "upstream": "NVIDIA-NeMo/Switchyard",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 55,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 55",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "whisper.cpp",
@@ -2336,21 +2336,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 48930,
+      "size": 49414,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-09-05T12:23:44Z",
       "updated_at": "2026-11-10T14:46:00Z",
-      "pushed_at": "2026-11-10T14:45:27Z",
+      "pushed_at": "2026-11-21T16:20:04Z",
       "upstream": "ggml-org/whisper.cpp",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 120,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 120",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "worldmonitor",
@@ -2363,21 +2363,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 305264,
+      "size": 339419,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-01T14:16:46Z",
       "updated_at": "2026-11-10T14:46:00Z",
-      "pushed_at": "2026-11-10T14:45:19Z",
+      "pushed_at": "2026-11-21T16:20:16Z",
       "upstream": "koala73/worldmonitor",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 1195,
+      "behind": 14,
       "ahead": 0,
-      "drift_detail": "behind by 1195",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 14",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -2390,21 +2390,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 8343,
+      "size": 8622,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-17T15:18:32Z",
       "updated_at": "2026-11-10T14:45:20Z",
-      "pushed_at": "2026-11-10T14:45:05Z",
+      "pushed_at": "2026-11-21T16:20:28Z",
       "upstream": "nextlevelbuilder/ui-ux-pro-max-skill",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 14,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 14",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "open-design",
@@ -2417,21 +2417,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 700616,
+      "size": 702927,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-07-19T10:23:27Z",
       "updated_at": "2026-11-10T14:44:47Z",
-      "pushed_at": "2026-11-10T14:44:39Z",
+      "pushed_at": "2026-11-21T16:20:43Z",
       "upstream": "nexu-io/open-design",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 26,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 26",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ComfyUI",
@@ -2444,21 +2444,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 93902,
+      "size": 94483,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-07-27T22:54:08Z",
       "updated_at": "2026-11-10T13:48:17Z",
-      "pushed_at": "2026-11-10T13:46:43Z",
+      "pushed_at": "2026-11-21T16:20:52Z",
       "upstream": "Comfy-Org/ComfyUI",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 85,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 85",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Personal-Site",
@@ -2512,7 +2512,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "OBLITERATUS",
@@ -2539,7 +2539,7 @@
       "behind": 252,
       "ahead": 0,
       "drift_detail": "behind by 252",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-free-llm-apis",
@@ -2552,21 +2552,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 529,
+      "size": 520,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-07-18T17:13:08Z",
       "updated_at": "2026-11-04T18:55:14Z",
-      "pushed_at": "2026-11-04T18:55:02Z",
+      "pushed_at": "2026-11-21T16:21:15Z",
       "upstream": "mnfst/awesome-free-llm-apis",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 28,
-      "ahead": 0,
-      "drift_detail": "behind by 28",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_status": "ok",
+      "behind": 0,
+      "ahead": 1,
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "book-to-skill",
@@ -2593,7 +2593,7 @@
       "behind": 40,
       "ahead": 0,
       "drift_detail": "behind by 40",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "SurfSense",
@@ -2620,7 +2620,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "magic-resume",
@@ -2647,7 +2647,7 @@
       "behind": 4,
       "ahead": 0,
       "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "stemkit",
@@ -2660,21 +2660,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 12986,
+      "size": 12940,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-23T11:15:54Z",
       "updated_at": "2026-11-02T01:06:44Z",
-      "pushed_at": "2026-11-02T01:06:38Z",
+      "pushed_at": "2026-11-21T16:21:23Z",
       "upstream": "danielravina/stemkit",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 46,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 46",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "vibeyard",
@@ -2687,21 +2687,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 48272,
+      "size": 48314,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-22T13:11:15Z",
       "updated_at": "2026-11-01T21:26:22Z",
-      "pushed_at": "2026-11-01T21:26:15Z",
+      "pushed_at": "2026-11-21T16:22:01Z",
       "upstream": "elirantutia/vibeyard",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 5,
+      "behind": 6,
       "ahead": 0,
-      "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "behind by 6",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "skills",
@@ -2714,21 +2714,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 2084,
+      "size": 2159,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-01T14:16:11Z",
       "updated_at": "2026-11-01T02:57:42Z",
-      "pushed_at": "2026-11-01T02:57:55Z",
+      "pushed_at": "2026-11-21T16:22:09Z",
       "upstream": "mattpocock/skills",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 6,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "brag",
@@ -2741,21 +2741,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 50109,
+      "size": 50219,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-26T22:28:55Z",
       "updated_at": "2026-11-01T02:55:13Z",
-      "pushed_at": "2026-11-01T02:44:42Z",
+      "pushed_at": "2026-11-21T16:23:21Z",
       "upstream": "latent-spaces/brag",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 26,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 26",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "openscreen",
@@ -2782,7 +2782,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "OmniChar",
@@ -2809,7 +2809,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "L1B3RT4S",
@@ -2836,7 +2836,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "KARIMO",
@@ -2863,7 +2863,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Instatic",
@@ -2876,21 +2876,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 193454,
+      "size": 196171,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-09-06T12:11:52Z",
       "updated_at": "2026-11-01T02:46:29Z",
-      "pushed_at": "2026-11-01T02:46:15Z",
+      "pushed_at": "2026-11-21T16:22:48Z",
       "upstream": "CoreBunch/Instatic",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 84,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 84",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "i-have-adhd",
@@ -2917,7 +2917,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-design-md",
@@ -2944,7 +2944,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "crm",
@@ -2971,7 +2971,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "9drive",
@@ -2998,7 +2998,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "reanimate",
@@ -3025,7 +3025,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "resume-website",
@@ -3114,7 +3114,7 @@
       "behind": null,
       "ahead": null,
       "drift_detail": "branch mismatch: yours 'release/v3.8.49' vs upstream 'release/v3.8.55'",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Rofi-Beats-Windows",
@@ -3141,7 +3141,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "50-final-year-projects-with-source-code",
@@ -3168,7 +3168,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "rEFIndWindowsInstaller",
@@ -3195,7 +3195,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Spider-Man",
@@ -3276,7 +3276,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "frontend-slides",
@@ -3303,7 +3303,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "geo-seo-claude",
@@ -3330,7 +3330,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "heartlib",
@@ -3343,21 +3343,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 10459,
+      "size": 10458,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-31T14:18:54Z",
       "updated_at": "2026-10-09T09:40:01Z",
-      "pushed_at": "2026-10-09T09:39:55Z",
+      "pushed_at": "2026-11-21T16:23:52Z",
       "upstream": "HeartMuLa/heartlib",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 8,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 8",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Lian-Arch-Linux-Site",
@@ -3411,7 +3411,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ai-legal-claude",
@@ -3438,7 +3438,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "camofox-browser",
@@ -3451,21 +3451,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 15923,
+      "size": 15866,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "master",
       "created_at": "2026-08-01T21:38:46Z",
       "updated_at": "2026-10-05T07:46:13Z",
-      "pushed_at": "2026-11-01T10:32:59Z",
+      "pushed_at": "2026-11-21T16:22:22Z",
       "upstream": "jo-inc/camofox-browser",
       "upstream_branch": "master",
-      "drift_status": "behind",
-      "behind": 75,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 75",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "icloud-linux",
@@ -3492,7 +3492,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "scroll-craft",
@@ -3519,7 +3519,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "latentbox",
@@ -3546,7 +3546,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ai-agent-book",
@@ -3573,7 +3573,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "claude-video",
@@ -3600,7 +3600,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "liquidglass",
@@ -3627,7 +3627,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "galaxy",
@@ -3654,7 +3654,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "threeui",
@@ -3681,7 +3681,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "shadergradient",
@@ -3708,7 +3708,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "code-review-graph",
@@ -3721,21 +3721,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 19693,
+      "size": 26094,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-01T14:03:50Z",
       "updated_at": "2026-09-27T04:20:14Z",
-      "pushed_at": "2026-09-27T04:19:19Z",
+      "pushed_at": "2026-11-21T16:24:49Z",
       "upstream": "tirth8205/code-review-graph",
       "upstream_branch": "",
       "drift_status": "warn",
       "behind": null,
       "ahead": null,
       "drift_detail": "branch mismatch: yours 'main' vs upstream 'staging'",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "CL4R1T4S",
@@ -3762,7 +3762,7 @@
       "behind": 3,
       "ahead": 0,
       "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "omniget",
@@ -3775,21 +3775,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 130824,
+      "size": 224026,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-07-27T02:36:15Z",
       "updated_at": "2026-09-27T03:28:06Z",
-      "pushed_at": "2026-09-27T03:27:26Z",
+      "pushed_at": "2026-11-21T16:25:01Z",
       "upstream": "tonhowtf/omniget",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 269,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 269",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "EliteHuman",
@@ -3856,21 +3856,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 3213,
+      "size": 3246,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-02T18:43:57Z",
       "updated_at": "2026-09-19T07:17:26Z",
-      "pushed_at": "2026-09-19T07:17:11Z",
+      "pushed_at": "2026-11-21T16:25:30Z",
       "upstream": "winfunc/opcode",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 18,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 18",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "3dviz-pro-max",
@@ -3897,7 +3897,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "MoneyPrinterV2",
@@ -3924,7 +3924,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "autosocial",
@@ -3951,7 +3951,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Anthropic-Cybersecurity-Skills",
@@ -3978,7 +3978,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Website-downloader",
@@ -4005,7 +4005,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "awesome-design",
@@ -4032,7 +4032,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "MoneyPrinterTurbo-Extended",
@@ -4059,7 +4059,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Maya",
@@ -4086,7 +4086,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "UI-TARS",
@@ -4113,7 +4113,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "midday",
@@ -4140,7 +4140,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "holaOS",
@@ -4153,21 +4153,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 29993,
+      "size": 29738,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-14T15:10:45Z",
       "updated_at": "2026-08-23T12:41:49Z",
-      "pushed_at": "2026-08-23T12:41:23Z",
+      "pushed_at": "2026-11-21T16:26:16Z",
       "upstream": "holaboss-ai/holaOS",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 2,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "SpotiFLAC",
@@ -4194,7 +4194,7 @@
       "behind": 0,
       "ahead": 316,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "jarvis-ai-assistant",
@@ -4221,7 +4221,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "videogenpro",
@@ -4248,7 +4248,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "larasend",
@@ -4261,21 +4261,21 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 2174,
+      "size": 2383,
       "fork": true,
       "archived": false,
       "has_pages": false,
       "default_branch": "main",
       "created_at": "2026-08-02T02:53:12Z",
       "updated_at": "2026-08-16T22:54:35Z",
-      "pushed_at": "2026-08-16T22:54:24Z",
+      "pushed_at": "2026-11-21T16:27:04Z",
       "upstream": "savvyagents/larasend",
       "upstream_branch": "main",
-      "drift_status": "behind",
-      "behind": 1,
+      "drift_status": "ok",
+      "behind": 0,
       "ahead": 0,
-      "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_detail": "up to date",
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "holehe",
@@ -4302,7 +4302,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "omniparse",
@@ -4329,7 +4329,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "agent-skills-manager",
@@ -4356,7 +4356,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "musicgpt",
@@ -4383,7 +4383,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "WatchYourLAN",
@@ -4410,7 +4410,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "claude-code-ui",
@@ -4437,7 +4437,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "tvlist-awesome-m3u-m3u8",
@@ -4464,7 +4464,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "agentic-inbox",
@@ -4491,7 +4491,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "G0DM0D3",
@@ -4518,7 +4518,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "phoneintel",
@@ -4545,7 +4545,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Freebuff2API",
@@ -4572,7 +4572,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Crucix",
@@ -4599,7 +4599,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "OpenPlanter",
@@ -4626,7 +4626,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Vehicle-OSINT-Collection",
@@ -4653,7 +4653,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "SkyReels-V2",
@@ -4680,7 +4680,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Moodify-Emotion-Music-App",
@@ -4707,7 +4707,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "ApiVault",
@@ -4734,7 +4734,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "tgbot-verify",
@@ -4761,7 +4761,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "Ada-SI",
@@ -4788,7 +4788,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     },
     {
       "name": "developer-portfolio",
@@ -4815,7 +4815,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-21T14:26:45.497747+00:00"
+      "drift_checked_at": "2026-11-21T18:19:17.484418+00:00"
     }
   ]
 }
