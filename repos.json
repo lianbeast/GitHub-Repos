@@ -1,6 +1,6 @@
 {
   "user": "lianbeast",
-  "generated_at": "2026-11-26T20:35:58.644678+00:00",
+  "generated_at": "2026-11-27T07:00:51.828998+00:00",
   "count": 179,
   "repos": [
     {
@@ -52,10 +52,10 @@
       "upstream": "timoncool/YuE2-Studio",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 25,
+      "behind": 26,
       "ahead": 5,
-      "drift_detail": "behind by 25, 5 local commit(s)",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 26, 5 local commit(s)",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "stremio-web",
@@ -82,7 +82,7 @@
       "behind": 17,
       "ahead": 0,
       "drift_detail": "behind by 17",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "echo-dot-assist",
@@ -106,10 +106,10 @@
       "upstream": "Gamer92000/echo-dot-assist",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 28,
+      "behind": 33,
       "ahead": 0,
-      "drift_detail": "behind by 28",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 33",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "GitHub-Repos",
@@ -122,14 +122,14 @@
       "stars": 0,
       "forks": 0,
       "open_issues": 0,
-      "size": 2100,
+      "size": 2101,
       "fork": false,
       "archived": false,
       "has_pages": true,
       "default_branch": "main",
       "created_at": "2026-10-09T06:21:44Z",
       "updated_at": "2026-11-12T15:53:29Z",
-      "pushed_at": "2026-11-26T16:38:16Z",
+      "pushed_at": "2026-11-26T20:35:59Z",
       "upstream": "",
       "upstream_branch": "",
       "drift_status": "",
@@ -187,10 +187,10 @@
       "upstream": "tangency-labs/solidcraft",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 5286,
+      "behind": 5879,
       "ahead": 0,
-      "drift_detail": "behind by 5286",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 5879",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "freevideo",
@@ -214,10 +214,10 @@
       "upstream": "FlashML-org/FreeVideo",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 191,
+      "behind": 282,
       "ahead": 0,
-      "drift_detail": "behind by 191",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 282",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "The-Sleep-Etiquette",
@@ -271,7 +271,7 @@
       "behind": 24,
       "ahead": 0,
       "drift_detail": "behind by 24",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "FL-STUDIO-AI",
@@ -325,7 +325,7 @@
       "behind": 3,
       "ahead": 0,
       "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "x-tools",
@@ -352,7 +352,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "kde-glassy-system-monitor",
@@ -379,7 +379,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "nerd-fonts",
@@ -406,7 +406,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ever-gauzy",
@@ -430,10 +430,10 @@
       "upstream": "ever-co/ever-gauzy",
       "upstream_branch": "develop",
       "drift_status": "behind",
-      "behind": 154,
+      "behind": 179,
       "ahead": 0,
-      "drift_detail": "behind by 154",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 179",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-seedance-2.5",
@@ -457,10 +457,10 @@
       "upstream": "ZeroLu/awesome-seedance-2.5",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 5,
+      "behind": 6,
       "ahead": 0,
-      "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 6",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-seedance-2.5-prompts-skills",
@@ -484,10 +484,10 @@
       "upstream": "AtlasCloudAI/awesome-seedance-2.5-prompts-skills",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 5,
+      "behind": 6,
       "ahead": 0,
-      "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 6",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "oil-ui",
@@ -514,7 +514,7 @@
       "behind": 6,
       "ahead": 0,
       "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "desigma",
@@ -541,7 +541,7 @@
       "behind": 15,
       "ahead": 0,
       "drift_detail": "behind by 15",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "iFixAi",
@@ -568,7 +568,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "rembrandt",
@@ -595,7 +595,7 @@
       "behind": 15,
       "ahead": 0,
       "drift_detail": "behind by 15",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "magicui",
@@ -622,7 +622,7 @@
       "behind": 12,
       "ahead": 0,
       "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ascii",
@@ -649,7 +649,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "rea",
@@ -673,10 +673,10 @@
       "upstream": "morluto/rea",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 1316,
+      "behind": 1375,
       "ahead": 0,
-      "drift_detail": "behind by 1316",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 1375",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "voicestudio",
@@ -700,10 +700,10 @@
       "upstream": "debpalash/VoiceStudio",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 143,
+      "behind": 149,
       "ahead": 0,
-      "drift_detail": "behind by 143",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 149",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ECC",
@@ -730,7 +730,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-llm-apps",
@@ -757,7 +757,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "openGym",
@@ -784,7 +784,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "onetake",
@@ -811,7 +811,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "cleanyourtv",
@@ -838,7 +838,7 @@
       "behind": 424,
       "ahead": 0,
       "drift_detail": "behind by 424",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "webamp",
@@ -865,7 +865,7 @@
       "behind": 1,
       "ahead": 0,
       "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "openfilm",
@@ -892,7 +892,7 @@
       "behind": 73,
       "ahead": 31,
       "drift_detail": "behind by 73, 31 local commit(s)",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "agency-agents",
@@ -919,7 +919,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Deep-Live-Cam",
@@ -946,7 +946,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "lemo-opuscar",
@@ -973,7 +973,7 @@
       "behind": 4,
       "ahead": 0,
       "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "9router",
@@ -1000,7 +1000,7 @@
       "behind": 35,
       "ahead": 0,
       "drift_detail": "behind by 35",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "FinceptTerminal",
@@ -1027,7 +1027,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "garden-skills",
@@ -1054,7 +1054,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Invio",
@@ -1081,7 +1081,7 @@
       "behind": 14,
       "ahead": 0,
       "drift_detail": "behind by 14",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "OfficeCLI",
@@ -1108,7 +1108,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-selfhosted",
@@ -1135,7 +1135,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "superfile",
@@ -1162,7 +1162,7 @@
       "behind": 1,
       "ahead": 0,
       "drift_detail": "behind by 1",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "video-shotcraft",
@@ -1189,7 +1189,7 @@
       "behind": 6,
       "ahead": 0,
       "drift_detail": "behind by 6",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "OpenBB",
@@ -1216,7 +1216,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "openvid",
@@ -1243,7 +1243,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "invoice-builder",
@@ -1270,7 +1270,7 @@
       "behind": 5,
       "ahead": 0,
       "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "mobile-mcp",
@@ -1297,7 +1297,7 @@
       "behind": 11,
       "ahead": 0,
       "drift_detail": "behind by 11",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Agent-Reach",
@@ -1324,7 +1324,7 @@
       "behind": 5,
       "ahead": 0,
       "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "uniface",
@@ -1351,7 +1351,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "dioxus",
@@ -1375,10 +1375,10 @@
       "upstream": "DioxusLabs/dioxus",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 13,
+      "behind": 29,
       "ahead": 0,
-      "drift_detail": "behind by 13",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 29",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ai-job-search",
@@ -1405,7 +1405,7 @@
       "behind": 7,
       "ahead": 0,
       "drift_detail": "behind by 7",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Claude-Code-Agent-Monitor",
@@ -1432,7 +1432,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "claude-hud",
@@ -1459,7 +1459,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "diagram-design",
@@ -1486,7 +1486,7 @@
       "behind": 26,
       "ahead": 0,
       "drift_detail": "behind by 26",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Paymenter",
@@ -1513,7 +1513,7 @@
       "behind": 11,
       "ahead": 0,
       "drift_detail": "behind by 11",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "graphify",
@@ -1537,10 +1537,10 @@
       "upstream": "Graphify-Labs/graphify",
       "upstream_branch": "v8",
       "drift_status": "behind",
-      "behind": 136,
+      "behind": 141,
       "ahead": 0,
-      "drift_detail": "behind by 136",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 141",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "free-for-dev",
@@ -1564,10 +1564,10 @@
       "upstream": "ripienaar/free-for-dev",
       "upstream_branch": "master",
       "drift_status": "behind",
-      "behind": 33,
+      "behind": 35,
       "ahead": 0,
-      "drift_detail": "behind by 33",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 35",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-harness-engineering",
@@ -1594,7 +1594,7 @@
       "behind": 31,
       "ahead": 0,
       "drift_detail": "behind by 31",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "hallmark",
@@ -1621,7 +1621,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "public-apis",
@@ -1648,7 +1648,7 @@
       "behind": 371,
       "ahead": 0,
       "drift_detail": "behind by 371",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "freellmapi",
@@ -1672,10 +1672,10 @@
       "upstream": "tashfeenahmed/freellmapi",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 121,
+      "behind": 122,
       "ahead": 0,
-      "drift_detail": "behind by 121",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 122",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "gods-eye-view",
@@ -1699,10 +1699,10 @@
       "upstream": "bilawalsidhu/gods-eye-view",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 2249,
+      "behind": 2313,
       "ahead": 0,
-      "drift_detail": "behind by 2249",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 2313",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "GeoLibre",
@@ -1726,10 +1726,10 @@
       "upstream": "opengeos/GeoLibre",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 230,
+      "behind": 258,
       "ahead": 0,
-      "drift_detail": "behind by 230",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 258",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "openship",
@@ -1756,7 +1756,7 @@
       "behind": 234,
       "ahead": 0,
       "drift_detail": "behind by 234",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "kde-audio-visualizer",
@@ -1783,7 +1783,7 @@
       "behind": 2,
       "ahead": 0,
       "drift_detail": "behind by 2",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "tweakcc",
@@ -1810,7 +1810,7 @@
       "behind": 12,
       "ahead": 0,
       "drift_detail": "behind by 12",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "openscreen-NEW",
@@ -1837,7 +1837,7 @@
       "behind": 344,
       "ahead": 0,
       "drift_detail": "behind by 344",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "prime-agent",
@@ -1864,7 +1864,7 @@
       "behind": 192,
       "ahead": 0,
       "drift_detail": "behind by 192",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "AstrBot",
@@ -1888,10 +1888,10 @@
       "upstream": "AstrBotDevs/AstrBot",
       "upstream_branch": "master",
       "drift_status": "behind",
-      "behind": 99,
+      "behind": 106,
       "ahead": 0,
-      "drift_detail": "behind by 99",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 106",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "orca",
@@ -1915,10 +1915,10 @@
       "upstream": "stablyai/orca",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 4572,
+      "behind": 4801,
       "ahead": 0,
-      "drift_detail": "behind by 4572",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 4801",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "buzz",
@@ -1945,7 +1945,7 @@
       "behind": 58,
       "ahead": 0,
       "drift_detail": "behind by 58",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "impeccable",
@@ -1972,7 +1972,7 @@
       "behind": 172,
       "ahead": 0,
       "drift_detail": "behind by 172",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "iptv",
@@ -1996,10 +1996,10 @@
       "upstream": "iptv-org/iptv",
       "upstream_branch": "master",
       "drift_status": "behind",
-      "behind": 50,
+      "behind": 56,
       "ahead": 0,
-      "drift_detail": "behind by 50",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 56",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "free-claude-code",
@@ -2023,10 +2023,10 @@
       "upstream": "Alishahryar1/free-claude-code",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 54,
+      "behind": 55,
       "ahead": 0,
-      "drift_detail": "behind by 54",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 55",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "obsidian-releases",
@@ -2050,10 +2050,10 @@
       "upstream": "obsidianmd/obsidian-releases",
       "upstream_branch": "master",
       "drift_status": "behind",
-      "behind": 91,
+      "behind": 99,
       "ahead": 0,
-      "drift_detail": "behind by 91",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 99",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "mastra",
@@ -2077,10 +2077,10 @@
       "upstream": "mastra-ai/mastra",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 1122,
+      "behind": 1148,
       "ahead": 0,
-      "drift_detail": "behind by 1122",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 1148",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -2104,10 +2104,10 @@
       "upstream": "harry0703/MoneyPrinterTurbo",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 46,
+      "behind": 48,
       "ahead": 0,
-      "drift_detail": "behind by 46",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 48",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "NeMo-Agent-Toolkit",
@@ -2134,7 +2134,7 @@
       "behind": 34,
       "ahead": 0,
       "drift_detail": "behind by 34",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "open-seo",
@@ -2161,7 +2161,7 @@
       "behind": 115,
       "ahead": 0,
       "drift_detail": "behind by 115",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Open-Generative-AI",
@@ -2188,7 +2188,7 @@
       "behind": 7,
       "ahead": 0,
       "drift_detail": "behind by 7",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "OpenViking",
@@ -2212,10 +2212,10 @@
       "upstream": "volcengine/OpenViking",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 101,
+      "behind": 105,
       "ahead": 0,
-      "drift_detail": "behind by 101",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 105",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "transformers",
@@ -2239,10 +2239,10 @@
       "upstream": "huggingface/transformers",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 119,
+      "behind": 122,
       "ahead": 0,
-      "drift_detail": "behind by 119",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 122",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "semantica",
@@ -2269,7 +2269,7 @@
       "behind": 36,
       "ahead": 0,
       "drift_detail": "behind by 36",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "VoxCPM",
@@ -2296,7 +2296,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "vphone-cli",
@@ -2323,7 +2323,7 @@
       "behind": 117,
       "ahead": 0,
       "drift_detail": "behind by 117",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Switchyard",
@@ -2350,7 +2350,7 @@
       "behind": 10,
       "ahead": 0,
       "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "whisper.cpp",
@@ -2377,7 +2377,7 @@
       "behind": 182,
       "ahead": 0,
       "drift_detail": "behind by 182",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "worldmonitor",
@@ -2401,10 +2401,10 @@
       "upstream": "koala73/worldmonitor",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 252,
+      "behind": 275,
       "ahead": 0,
-      "drift_detail": "behind by 252",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 275",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -2428,10 +2428,10 @@
       "upstream": "nextlevelbuilder/ui-ux-pro-max-skill",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 15,
+      "behind": 18,
       "ahead": 0,
-      "drift_detail": "behind by 15",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 18",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "open-design",
@@ -2455,10 +2455,10 @@
       "upstream": "nexu-io/open-design",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 5,
+      "behind": 6,
       "ahead": 0,
-      "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 6",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ComfyUI",
@@ -2482,10 +2482,10 @@
       "upstream": "Comfy-Org/ComfyUI",
       "upstream_branch": "master",
       "drift_status": "behind",
-      "behind": 30,
+      "behind": 31,
       "ahead": 0,
-      "drift_detail": "behind by 30",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 31",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Personal-Site",
@@ -2536,10 +2536,10 @@
       "upstream": "Leonxlnx/taste-skill",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 4,
+      "behind": 7,
       "ahead": 0,
-      "drift_detail": "behind by 4",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 7",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "OBLITERATUS",
@@ -2566,7 +2566,7 @@
       "behind": 485,
       "ahead": 0,
       "drift_detail": "behind by 485",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-free-llm-apis",
@@ -2593,7 +2593,7 @@
       "behind": 22,
       "ahead": 1,
       "drift_detail": "behind by 22, 1 local commit(s)",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "book-to-skill",
@@ -2620,7 +2620,7 @@
       "behind": 52,
       "ahead": 0,
       "drift_detail": "behind by 52",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "SurfSense",
@@ -2647,7 +2647,7 @@
       "behind": 451,
       "ahead": 0,
       "drift_detail": "behind by 451",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "magic-resume",
@@ -2674,7 +2674,7 @@
       "behind": 5,
       "ahead": 0,
       "drift_detail": "behind by 5",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "stemkit",
@@ -2701,7 +2701,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "vibeyard",
@@ -2728,7 +2728,7 @@
       "behind": 10,
       "ahead": 0,
       "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "skills",
@@ -2755,7 +2755,7 @@
       "behind": 7,
       "ahead": 0,
       "drift_detail": "behind by 7",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "brag",
@@ -2782,7 +2782,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "openscreen",
@@ -2809,7 +2809,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "OmniChar",
@@ -2836,7 +2836,7 @@
       "behind": 7,
       "ahead": 0,
       "drift_detail": "behind by 7",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "L1B3RT4S",
@@ -2863,7 +2863,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "KARIMO",
@@ -2890,7 +2890,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Instatic",
@@ -2917,7 +2917,7 @@
       "behind": 47,
       "ahead": 0,
       "drift_detail": "behind by 47",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "i-have-adhd",
@@ -2944,7 +2944,7 @@
       "behind": 3,
       "ahead": 0,
       "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-design-md",
@@ -2971,7 +2971,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "crm",
@@ -2998,7 +2998,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "9drive",
@@ -3025,7 +3025,7 @@
       "behind": 7,
       "ahead": 0,
       "drift_detail": "behind by 7",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "reanimate",
@@ -3052,7 +3052,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "resume-website",
@@ -3141,7 +3141,7 @@
       "behind": null,
       "ahead": null,
       "drift_detail": "branch mismatch: yours 'release/v3.8.49' vs upstream 'release/v3.8.55'",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Rofi-Beats-Windows",
@@ -3168,7 +3168,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "50-final-year-projects-with-source-code",
@@ -3195,7 +3195,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "rEFIndWindowsInstaller",
@@ -3222,7 +3222,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Spider-Man",
@@ -3303,7 +3303,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "frontend-slides",
@@ -3330,7 +3330,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "geo-seo-claude",
@@ -3357,7 +3357,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "heartlib",
@@ -3384,7 +3384,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Lian-Arch-Linux-Site",
@@ -3438,7 +3438,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ai-legal-claude",
@@ -3465,7 +3465,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "camofox-browser",
@@ -3492,7 +3492,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "icloud-linux",
@@ -3519,7 +3519,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "scroll-craft",
@@ -3546,7 +3546,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "latentbox",
@@ -3573,7 +3573,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ai-agent-book",
@@ -3600,7 +3600,7 @@
       "behind": 70,
       "ahead": 0,
       "drift_detail": "behind by 70",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "claude-video",
@@ -3627,7 +3627,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "liquidglass",
@@ -3654,7 +3654,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "galaxy",
@@ -3681,7 +3681,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "threeui",
@@ -3708,7 +3708,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "shadergradient",
@@ -3735,7 +3735,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "code-review-graph",
@@ -3762,7 +3762,7 @@
       "behind": null,
       "ahead": null,
       "drift_detail": "branch mismatch: yours 'main' vs upstream 'staging'",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "CL4R1T4S",
@@ -3789,7 +3789,7 @@
       "behind": 3,
       "ahead": 0,
       "drift_detail": "behind by 3",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "omniget",
@@ -3813,10 +3813,10 @@
       "upstream": "tonhowtf/omniget",
       "upstream_branch": "main",
       "drift_status": "behind",
-      "behind": 10,
+      "behind": 15,
       "ahead": 0,
-      "drift_detail": "behind by 10",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_detail": "behind by 15",
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "EliteHuman",
@@ -3897,7 +3897,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "3dviz-pro-max",
@@ -3924,7 +3924,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "MoneyPrinterV2",
@@ -3951,7 +3951,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "autosocial",
@@ -3978,7 +3978,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Anthropic-Cybersecurity-Skills",
@@ -4005,7 +4005,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Website-downloader",
@@ -4032,7 +4032,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "awesome-design",
@@ -4059,7 +4059,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "MoneyPrinterTurbo-Extended",
@@ -4086,7 +4086,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Maya",
@@ -4113,7 +4113,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "UI-TARS",
@@ -4140,7 +4140,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "midday",
@@ -4167,7 +4167,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "holaOS",
@@ -4194,7 +4194,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "SpotiFLAC",
@@ -4221,7 +4221,7 @@
       "behind": 0,
       "ahead": 316,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "jarvis-ai-assistant",
@@ -4248,7 +4248,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "videogenpro",
@@ -4275,7 +4275,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "larasend",
@@ -4302,7 +4302,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "holehe",
@@ -4329,7 +4329,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "omniparse",
@@ -4356,7 +4356,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "agent-skills-manager",
@@ -4383,7 +4383,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "musicgpt",
@@ -4410,7 +4410,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "WatchYourLAN",
@@ -4437,7 +4437,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "claude-code-ui",
@@ -4464,7 +4464,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "tvlist-awesome-m3u-m3u8",
@@ -4491,7 +4491,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "agentic-inbox",
@@ -4518,7 +4518,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "G0DM0D3",
@@ -4545,7 +4545,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "phoneintel",
@@ -4572,7 +4572,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Freebuff2API",
@@ -4599,7 +4599,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Crucix",
@@ -4626,7 +4626,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "OpenPlanter",
@@ -4653,7 +4653,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Vehicle-OSINT-Collection",
@@ -4680,7 +4680,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "SkyReels-V2",
@@ -4707,7 +4707,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Moodify-Emotion-Music-App",
@@ -4734,7 +4734,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "ApiVault",
@@ -4761,7 +4761,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "tgbot-verify",
@@ -4788,7 +4788,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "Ada-SI",
@@ -4815,7 +4815,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     },
     {
       "name": "developer-portfolio",
@@ -4842,7 +4842,7 @@
       "behind": 0,
       "ahead": 0,
       "drift_detail": "up to date",
-      "drift_checked_at": "2026-11-26T20:35:58.644523+00:00"
+      "drift_checked_at": "2026-11-27T07:00:51.828740+00:00"
     }
   ]
 }
